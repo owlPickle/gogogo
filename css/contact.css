@@ -1,0 +1,172 @@
+.sofa {
+  background-image: url("../images/contact/sofa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact .container {
+  background: rgba(255, 255, 255, .4);
+}
+
+
+/* content */
+
+#contact-info {
+  padding: 70px 0;
+}
+
+#contact-info .container {
+  width: 1030px;
+}
+
+#contact-info .desc {
+  margin-bottom: 70px;
+}
+
+#contact-info .desc .title {
+  font-size: 22px;
+}
+
+#contact-info .desc p {
+  letter-spacing: 1px;
+}
+
+#contact-info .title {
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #383838;
+}
+
+#contact-info  p, #contact-info  a {
+  color: #343434;
+  font-size: 13px;
+}
+
+#contact-info .question {
+  padding-left: 160px;
+}
+
+#contact-info .question .title {
+  font-size: 15px;
+}
+
+input {
+  border: 2px solid #C0C0C0;
+  border-radius: 20px;
+  margin-bottom: 7px;
+  padding-left: 20px;
+  width: 100%;
+  height: 40px;
+  font-size: 10px;
+}
+
+textarea {
+  border: 2px solid #C0C0C0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 90px;
+  font-size: 10px;
+}
+
+#contact .button {
+  display: inline-block;
+  border-radius: 20px;
+  width: 74px;
+  height: 40px;
+  background: #383838;
+  color: #fff;
+  font-size: 10px;
+}
+
+/* Map */
+.local {
+  width: 100px;
+  height: 50px;
+  background: #000;
+}
+
+.local .box {
+  top: 30%;
+  left: 13%;
+}
+
+.zoom i {
+  display: block;
+  margin-bottom: 2px;
+  background: #000;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+}
+
+.zoom {
+  top: 42px;
+  left: 45px;
+}
+
+.local {
+  bottom: 47%;
+  left: 45%;
+}
+
+.triangle {
+  top: 13px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 4px 0 4px;
+  border-color: #000000 transparent transparent transparent;
+  transform: rotate(25deg);
+}
+
+/* footer */
+#contact #footer .desc {
+  margin-top: 7px;
+  text-align: right;
+}
+
+#contact #footer .desc img {
+  display: inline-block;
+  text-align: right;
+}
+
+#contact #footer .address {
+  margin-bottom: 0;
+}
+
+#contact #footer .contact-info {
+  margin-top: 20px;
+  line-height: 2;
+  font-size: 14px;
+}
+
+#contact #footer.bottom {
+  padding-bottom: 100px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#contact #footer.bottom span {
+  font-size: 11px;
+  color: #8F8F8F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

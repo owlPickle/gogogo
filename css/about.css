@@ -1,0 +1,264 @@
+
+#about #workspace .imgleft {
+  width: 18%;
+  opacity: .3;
+  float: left;
+}
+
+#about #workspace .square {
+  padding-left: 10px;
+  width: 28.86772487%;
+  float: left;
+}
+
+#about #workspace .third {
+  padding-left: 10px;
+  width: 33.8624338624339%;
+  float: left;
+}
+
+#about #workspace .third1 {
+  padding-left: 10px;
+  width: 38.952481%;
+  float: left;
+}
+
+#about #workspace .third2 {
+  padding-left: 10px;
+  width: 60.952380952381%;
+  float: left;
+}
+
+#about #workspace .third3 {
+  margin-top: 11px;
+  padding-left: 10px;
+  width: 100%;
+  float: left;
+}
+
+#about #workspace  .imgright {
+  padding-left: 10px;
+  width: 18.8999%;
+  opacity: .3;
+  float: right;
+}
+
+#about #workspace .row {
+  margin: 0;
+  margin-left: -10px;
+  float: left;
+}
+
+#about #workspace .down {
+  margin-top: 13px;
+}
+
+
+
+/* header & about us */
+
+#about p {
+  color: #5B5B5B;
+  font-size: 16px;
+  line-height: 2.2;
+}
+
+#header .phone {
+  margin-left: 30px;
+  line-height: 35px;
+}
+
+.container.padding {
+  padding: 0 52px;
+}
+
+#about-us {
+  text-align: center;
+}
+
+#about-us .wrap {
+  padding-top: 78px;
+  padding-bottom: 61px;
+}
+
+#about-us .wrap .title {
+  font-size: 33px;
+  letter-spacing: 1px;
+  color: #494949;
+}
+
+#about-us .wrap .subtitle {
+  margin-top: 25px;
+  font-size: 10px;
+  color: #707070;
+  text-transform: capitalize;
+}
+  
+/* who we are */
+#company-info .content {
+  margin-bottom: 70px;
+  letter-spacing: 1px;
+}
+
+#company-info h2.title {
+  padding-top: 90px;
+  padding-bottom: 44px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #494949;
+}
+
+#company-info .main {
+  margin-bottom: 24px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #494949;
+  font-weight: bold;
+}
+
+#company-info .social {
+  margin-top: 10px;
+}
+
+#company-info .social a {
+  padding-right: 2px;
+  color: #494949;
+}
+
+/* our team */ 
+#team h1.title {
+  margin-top: 100px;
+  margin-bottom: 32px;
+  font-size: 23px;
+  font-weight: bold;
+  color: #494949;
+}
+
+#team .wrap {
+  position: relative;
+}
+
+.cover .social {
+  position: absolute;
+}
+
+#team ul {
+  display: inline-block;
+}
+
+#team .social {
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#team .social li {
+  margin: 0 2px;
+}
+
+#team .social li a {
+  color: #fff;
+}
+
+#team .info {
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+#team .name {
+  font-weight: bold;
+  color: #494949;
+}
+
+#team .info .title {
+  color: #AEAEAE;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+#team .mark {
+  margin-right: 10px;
+  width: 8px;
+  height: 32px;
+  background: #EEEEEE;
+  float: left;
+}
+
+/* workspace */
+#workspace {
+  position: relative;
+  margin: 100px 0;
+}
+
+#workspace .title {
+  margin-bottom: 45px;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#workspace i.icon-right-open-big {
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  font-size: 30px;
+  transform: translatey(-50%);
+  cursor: pointer;
+  color: #878787;
+}
+
+#workspace i.icon-left-open-big {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 30px;
+  transform: translatey(-50%);
+  cursor: pointer;
+  color: #878787;
+}
+
+
+#workspace .line-group {
+  margin: 20px auto;
+  width: 340px;
+}
+
+#workspace .line {
+  display: inline-block;
+  margin: 0 10px;
+  height: 4px;
+  width: 92px;
+  float: left;
+  background: #ECECEC;
+}
+
+#workspace .line.dark {
+  background: #B6B6B6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
