@@ -190,6 +190,7 @@
 #workspace {
   position: relative;
   margin: 100px 0;
+  overflow: hidden;
 }
 
 #workspace .title {
