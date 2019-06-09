@@ -45,7 +45,7 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 520,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -71,7 +71,7 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 520,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -91,13 +91,13 @@ $(document).ready(function(){
       {
         breakpoint: 1000,
         settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 4,
+            slidesToScroll: 4,
             arrows:false
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 520,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -177,6 +177,12 @@ $(document).ready(function(){
   timeStart();
   
   document.getElementById("circle" + circleIndex).classList.add("dark");
+
+  // nav rwd
+  $('#menu-trigger').on("click", function(e){
+    e.preventDefault();
+    $('#header').find('.nav').toggleClass("open");
+  });
   
   
   
