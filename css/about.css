@@ -62,6 +62,10 @@
   line-height: 2.2;
 }
 
+#header .wrap.about-nav {
+  float: left;
+}
+
 #header .phone {
   margin-left: 30px;
   line-height: 35px;
@@ -193,6 +197,14 @@
   overflow: hidden;
 }
 
+#workspace.mobile {
+  display: none;
+}
+
+#workspace .container.full-width {
+  max-width: 100%;
+}
+
 #workspace .title {
   margin-bottom: 45px;
   font-size: 23px;
@@ -213,7 +225,7 @@
 
 #workspace i.icon-left-open-big {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 5%;
   font-size: 30px;
   transform: translatey(-50%);
@@ -238,6 +250,146 @@
 
 #workspace .line.dark {
   background: #B6B6B6;
+}
+
+@media (max-width: 1250px) {
+
+  .container.full-width.slick {
+    max-width: 100%;
+  }
+
+  #header .container.padding {
+    position: relative;
+  }
+  
+  #header .wrap.about-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #header .nav.small {
+    margin-top: 50px;
+    padding-right: 40px;
+  } 
+}
+
+@media (max-width: 950px) {
+  .small.phone {
+    display: none;
+  }
+
+  #header .nav.small {
+    margin-top: 0;
+  }
+
+  #header .nav.small li a {
+    color: #d6b161;
+  }
+
+  .nav.small .shopping-cart {
+    display: none;
+  }  
+
+  #header .container.padding {
+    position: relative;
+  }
+
+  #header ul.common {
+    background-color: rgba(0, 0, 0, .9);
+    height: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  #about-us .wrap {
+    padding-top: 100px;
+  } 
+
+  #team .staff {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  #workspace i.icon-right-open-big, #workspace i.icon-left-open-big {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 520px) {
+
+  #about h1.title {
+    font-size: 20px;
+  }
+
+  #about p {
+    font-size: 13px;
+  }
+
+  #about-us .wrap .title {
+    font-size: 28px;
+  }
+
+  #company-info, #team, #workspace .title {
+    padding: 0 15px;
+  }
+
+  #company-info .main {
+    font-size: 16px;
+  }
+
+  #company-info h2.title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #company-info .social i {
+    font-size: 12px;
+  }
+
+  #team .staff {
+    width: 100%;
+  }
+
+  #team .name {
+    font-size: 14px;
+  }
+
+  #team .info .title {
+    font-size: 12px;
+  }
+
+  #workspace.desktop {
+    display: none;
+  }
+
+  #workspace.mobile {
+    display: block;
+  }
+
+  #workspace.mobile * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* #about #workspace.mobile .imgleft {
+    width: 50%;
+  }
+
+  #about #workspace.mobile .square {
+    width: 50%;
+  }
+
+  #about #workspace.mobile .third {
+    width: 50%;
+  }
+
+  #about #workspace.mobile .imgright {
+    width: 50%;
+  } */
+
+
+
 }
 
 

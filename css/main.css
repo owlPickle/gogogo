@@ -318,7 +318,6 @@ hr {
   letter-spacing: 4px;
 }
 
-
 /* header-small for contact & about */
 #header.small .phone {
   font-size: 12px;
@@ -1283,19 +1282,19 @@ button.slick-next.slick-arrow {
     background-color: #fff;
     width: 100%;
     height: 50px;
-    margin-top: 0;
+    margin: 0;
     z-index: 1000;
   }
 
-  #header .nav {
+  #header .nav,  #header .nav.small{
     display: none;
     position: fixed;
     top: 50px;
-    left: -70%;
+    left: -100%;
     width: 70%;
     height: 100%;
-    z-index: 2;
-    transition: .3s linear;
+    z-index: 999;
+    transition: left .4s linear;
   }
 
   #header .nav.open {
@@ -1577,6 +1576,10 @@ button.slick-next.slick-arrow {
 }
 
 @media (max-width: 520px) {
+  #header {
+    padding: 10px 10px;
+  }
+
   .container {
     max-width: 320px;
   }
@@ -1601,6 +1604,10 @@ button.slick-next.slick-arrow {
   .large .box {
     padding-left: 10px;
     padding-top: 40%;
+  }
+
+  .large .info .subtitle.dark-bg {
+    background: none;
   }
 
   .large .info .title-big {
@@ -1652,6 +1659,10 @@ button.slick-next.slick-arrow {
 
   .square h3.title {
     font-size: 12px;
+  }
+
+  .square.top {
+    margin-bottom: 9px;
   }
 
   .square .shop-group {
@@ -1706,7 +1717,7 @@ button.slick-next.slick-arrow {
   }
 
   #brands .brand {
-    margin-left: 100px;
+    margin-left: 130px;
   }
 
   #footer .service {
@@ -1715,6 +1726,10 @@ button.slick-next.slick-arrow {
 
   #footer .col-2, #footer .col-3 {
     width: 100%;
+  }
+
+  #footer .contact-info a {
+    font-size: 12px;
   }
 
   .footer-info h5.title {

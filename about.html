@@ -25,8 +25,10 @@
   <div id="header" class="small">
     <div class="container padding full-width clearfix">
 
-      <div id="logo"><img src="images/logo/logo.png" alt="schon-logo"></div>
-      <a class="small phone" href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+      <div class="wrap about-nav">
+          <div id="logo"><img src="images/logo/logo.png" alt="schon-logo"></div>
+          <a class="small phone" href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+      </div>
 
       <div class="nav small">
         <ul class="common clearfix">
@@ -36,20 +38,28 @@
           <li><a href="#">about</a></li>
           <li><a href="#">blog</a></li>
           <li><a href="#">contact</a></li>
-        </ul>
-        <ul class="igroup clearfix">
           <li><a href="#"><i class="icon-search"></i></a></li>
           <li><a href="#"><i class="icon-heart-empty"></i></a></li>
         </ul>
         <div class="shopping-cart qty clearfix">
-          <div class="cart-qty">
+          <div class="cart-qty clearfix">
             <a href="#" class="icon-shopping-bag bag"></a>
             <div class="qty circle">3</div>
           </div>
-          
-          
         </div>
 
+      </div>
+
+      <a href="javascript:;" id="menu-trigger">
+          <img src="https://www.shareicon.net/download/2017/02/05/878212_list.ico">   
+      </a>
+      <a href="#" class="icon-user-circle"></a>
+
+      <div class="shopping-cart qty index clearfix">
+          <div class="cart-qty clearfix">
+            <a href="#" class="icon-shopping-bag bag"></a>
+            <div class="qty circle">3</div>
+          </div>
       </div>
 
     </div>
@@ -180,9 +190,9 @@
       </div>
     </div>
 
-    <div id="workspace">
+    <div id="workspace" class="desktop">
       <div class="container">
-        <div class="title">our workspace</div>
+        <h1 class="title">our workspace</h1>
       </div>
       <div class="container full-width clearfix slick">
 
@@ -231,37 +241,37 @@
         <div class="row-slider">
 
           <div class="imgleft col">
-            <div class="top col">
-              <img src="images/about/lefttop.png" alt="schon-workspace">
-            </div>
-
-            <div class="down col">
-              <img src="images/about/leftdown.png" alt="schon-workspace">
-            </div>
+              <div class="top col">
+                <img src="images/about/lefttop.png" alt="schon-workspace">
+              </div>
+  
+              <div class="down col">
+                <img src="images/about/leftdown.png" alt="schon-workspace">
+              </div>
           </div>
 
           <div class="square col">
-            <div class="wrap">
-              <img src="https://via.placeholder.com/542x542/F8F8F8" alt="schon-workspace">
-            </div>
+              <div class="wrap">
+                <img src="https://via.placeholder.com/542x542/F8F8F8" alt="schon-workspace">
+              </div>
           </div>
 
           <div class="third col">
-            <div class="row">
-              <div class="third1 col">
-                <img src="https://via.placeholder.com/240x308/F8F8F8" alt="best-sellr-chair">
+              <div class="row">
+                <div class="third1 col">
+                  <img src="https://via.placeholder.com/240x308/F8F8F8" alt="best-sellr-chair">
+                </div>
+                <div class="third2 col">
+                  <img src="https://via.placeholder.com/384x308/F8F8F8" alt="best-sellr-chair">
+                </div>
               </div>
-              <div class="third2 col">
-                <img src="https://via.placeholder.com/384x308/F8F8F8" alt="best-sellr-chair">
+  
+              <div class="row col">
+                <div class="third3 col">
+                  <img src="https://via.placeholder.com/640x220/F8F8F8" alt="best-sellr-chair">
+                </div>
               </div>
-            </div>
-
-            <div class="row col">
-              <div class="third3 col">
-                <img src="https://via.placeholder.com/640x220/F8F8F8" alt="best-sellr-chair">
-              </div>
-            </div>
-
+  
           </div>
 
           <div class="imgright col">
@@ -317,6 +327,46 @@
       <i class="icon-left-open-big left"></i>
       <i class="icon-right-open-big right"></i>
 
+    </div>
+
+    <div id="workspace" class="mobile">
+        <div class="container">
+          <h1 class="title">our workspace</h1>
+        </div>
+        <div class="container full-width clearfix">
+  
+          <div class="row-slider slick">
+  
+            <div class="imgleft col">
+              <div class="top col">
+                <img src="images/about/lefttop.png" alt="schon-workspace">
+              </div>
+            </div>
+  
+            <div class="square col">
+              <div class="wrap">
+                <img src="https://via.placeholder.com/542x542/F8F8F8" alt="schon-workspace">
+              </div>
+            </div>
+  
+            <div class="third col">
+  
+              <div class="row col">
+                  <div class="down col">
+                      <img src="images/about/leftdown.png" alt="schon-workspace">
+                  </div>
+              </div>
+  
+            </div>
+  
+            <div class="imgright col">
+              <img src="images/about/right.png" alt="schon-workspace">
+            </div>
+  
+          </div>
+          
+        </div>
+  
     </div>
 
   </div>
@@ -381,10 +431,10 @@
             </ul>
           </div>
           
-          <div class="col-3">
+          <div class="col-3 newsletter">
             <h5 class="title right">sign up newsletter</h5>
             <div class="row">
-              <div class="col-10">
+              <div class="col-12">
                 <div class="client-email">
                   <input type="text" placeholder="YourEmail"  name="client_email" id="client_email" required />
                   <button class="button subscribe absolute">subscribe</button>
@@ -417,12 +467,12 @@
   
   <div id="footer" class="bottom">
     <div class="container clearfix">
-      <div class="copyright">
-        <div class="copylogo">
-          &copy;schön.
+        <div class="copyright clearfix">
+            <p class="copylogo">
+              &copy;schön. - All rights Reserved
+            </p>
+        
         </div>
-        <p> - All rights Reserved</p>
-      </div>
     
       <div class="pay">
         <i class="icon-cc-visa"></i>

@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+  // nav rwd
+  $('#menu-trigger').on("click", function(e){
+    
+    $('#header').find('.nav').toggleClass("open");
+  });
 	
   // slider PlugIn
   
@@ -13,13 +19,13 @@ $(document).ready(function(){
       {
         breakpoint: 1000,
         settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            arrows:false
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows:true
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 520,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -178,11 +184,7 @@ $(document).ready(function(){
   
   document.getElementById("circle" + circleIndex).classList.add("dark");
 
-  // nav rwd
-  $('#menu-trigger').on("click", function(e){
-    e.preventDefault();
-    $('#header').find('.nav').toggleClass("open");
-  });
+  
   
   
   
