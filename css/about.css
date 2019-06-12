@@ -45,12 +45,11 @@
 
 #about #workspace .row {
   margin: 0;
-  margin-left: -10px;
   float: left;
 }
 
 #about #workspace .down {
-  margin-top: 13px;
+  margin-top: 10px;
 }
 
 
@@ -69,6 +68,10 @@
 
 .container.padding {
   padding: 0 52px;
+}
+
+.icon-heart-empty {
+  font-size: 22px;
 }
 
 #about-us {
@@ -193,6 +196,10 @@
   overflow: hidden;
 }
 
+#workspace .container-fluid {
+  padding: 0;
+}
+
 #workspace .title {
   margin-bottom: 45px;
   font-size: 23px;
@@ -203,7 +210,7 @@
 
 #workspace i.icon-right-open-big {
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 5%;
   font-size: 30px;
   transform: translatey(-50%);
@@ -239,6 +246,24 @@
 #workspace .line.dark {
   background: #B6B6B6;
 }
+
+
+@media (max-width: 992px) {
+  #team .staff {
+    margin-bottom: 30px;
+  }
+
+  #workspace {
+    margin: 60px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #workspace .horizontal {
+    margin-top: 15px;
+  }
+}
+
 
 
 

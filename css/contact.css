@@ -16,10 +16,6 @@
   padding: 70px 0;
 }
 
-#contact-info .container {
-  width: 1030px;
-}
-
 #contact-info .desc {
   margin-bottom: 70px;
 }
@@ -154,8 +150,59 @@ textarea {
 }
 
 #contact #footer.bottom span {
+  margin-left: auto;
   font-size: 11px;
   color: #8F8F8F;
+}
+
+
+@media (max-width: 992px) {
+  
+  #contact-info .question {
+    margin-top: 40px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact-info {
+    text-align: center;
+  }
+
+  #contact-info .desc {
+    margin-bottom: 35px;
+  }
+
+  #contact-info .contact-detail {
+    margin-bottom: 30px;
+  }
+
+  #contact #footer .desc {
+    text-align: center;
+  }
+
+  #contact #footer.bottom {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  #company-info .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #contact-info .question {
+    padding-left: 0;
+  }
+
+  #workspace .slick-dots {
+    left: 34%;
+  }
+
+  
+  
 }
 
 

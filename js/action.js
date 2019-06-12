@@ -13,17 +13,17 @@ $(document).ready(function(){
       {
         breakpoint: 1000,
         settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            arrows:false
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows:true
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 320,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows:false
+            arrows:true
         }
       }]
   });
