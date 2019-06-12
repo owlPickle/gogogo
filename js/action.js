@@ -41,11 +41,11 @@ $(document).ready(function(){
         settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            arrows:false
+            arrows:true
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -91,15 +91,15 @@ $(document).ready(function(){
       {
         breakpoint: 1000,
         settings: {
-            slidesToShow: 2,
+            slidesToShow: 6,
             slidesToScroll: 2,
             arrows:false
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
-            slidesToShow: 1,
+            slidesToShow: 6,
             slidesToScroll: 1,
             arrows:false
         }
@@ -152,7 +152,7 @@ $(document).ready(function(){
     sliderImg.innerHTML = '<img src="images/slider/owl'+this.id+'.jpg" alt="counter stool">';
     circleActive();
     clearInterval(time);
-    timeStart();
+    // timeStart();
   }
   
   function circleActive() {
@@ -162,19 +162,19 @@ $(document).ready(function(){
     document.getElementById("circle" + circleIndex).classList.add("dark");
   }
   
-  function timeStart() {
-    time = setInterval(function(){
-      circleIndex ++;
-      if (circleIndex > 3) {
-        circleIndex = 1;
-      }
-      sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
-      circleActive();
-    }, 1500);
+  // function timeStart() {
+  //   time = setInterval(function(){
+  //     circleIndex ++;
+  //     if (circleIndex > 3) {
+  //       circleIndex = 1;
+  //     }
+  //     sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
+  //     circleActive();
+  //   }, 1000);
     
-  }
+  // }
   
-  timeStart();
+  // timeStart();
   
   document.getElementById("circle" + circleIndex).classList.add("dark");
   

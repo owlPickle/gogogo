@@ -9,40 +9,48 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Source+Sans+Pro&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontello.css">
+  
 	
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/main.css">
   
   <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="js/action.js"></script>
 
 </head>
 <body>
   
-  <div id="header-top">
+  <div id="header-top" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="row">
-        <div class="topnav-left">
-          <ul class="clearfix">
-            <li class="phone">
-              <i class="icon-phone"></i>
-              <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
-            </li>
-            <li class="email">
-              <i class="icon-mail"></i>
-              <a href="mailto:info@schon.chairs">info@schon.chairs</a>
-            </li>
-          </ul>
+        <div class="col-lg-6">
+            <div class="topnav-left">
+                <ul class="clearfix">
+                  <li class="phone">
+                    <i class="icon-phone"></i>
+                    <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+                  </li>
+                  <li class="email">
+                    <i class="icon-mail"></i>
+                    <a href="mailto:info@schon.chairs">info@schon.chairs</a>
+                  </li>
+                </ul>
+              </div>
         </div>
-        <div class="topnav-right">
-          <ul class="clearfix">
-            <li><a href="#">order track</a></li>
-            <li><a href="#">my account</a></li>
-            <li><a href="#">checkout</a></li>
-          </ul>
+        
+        <div class="col-lg-6">
+            <div class="topnav-right">
+                <ul class="clearfix">
+                  <li><a href="#">order track</a></li>
+                  <li><a href="#">my account</a></li>
+                  <li><a href="#">checkout</a></li>
+                </ul>
+              </div>
         </div>
       </div>
     </div>
@@ -50,29 +58,65 @@
   
   <div id="header">
     <div class="container clearfix">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a id="logo" class="navbar-brand" href="#"><img src="images/logo/logo.png" alt="schon-logo"></a>
+            <div class="wrap mobile-header ml-auto d-lg-none">
+                <a href="#" class="icon-user-circle"></a>
       
-      <div id="logo"><img src="images/logo/logo.png" alt="schon-logo"></div>
-      
-      <div class="nav">
-        <ul class="main clearfix">
-          <li><a href="#">home</a></li>
-          <li><a href="#">products <i class="icon-down-open-mini"></i></a></li>
-          <li><a href="#">pages <i class="icon-down-open-mini"></i></a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">contact</a></li>
-          <li><a href="#"><i class="icon-search"></i></a></li>
-        </ul>
-      
-        <div class="shopping-cart clearfix">
-          <a href="#" class="icon-shopping-bag bag"></a>
-          <a href="#" class="cart">shopping cart</a>
-          <div class="cart-detail">
-            <span class="items"> 3 items</span>
-            <span class="price">$74.00</span>
-          </div>
-        </div>
-      </div>
+                <div class="shopping-cart mobile qty index clearfix">
+                  <div class="cart-qty clearfix">
+                    <a href="#" class="icon-shopping-bag bag"></a>
+                    <div class="qty circle">3</div>
+                  </div>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">products <i class="icon-down-open-mini"></i></a></li>
+                  <li><a href="#">pages <i class="icon-down-open-mini"></i></a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">blog</a></li>
+                  <li><a href="#">contact</a></li>
+                  <li class="icon-search-desktop">
+                    <a href="#"><i class="icon-search"></i></a>
+                  </li>
+                  <div class="header-top d-lg-none">
+                      <li><a href="#">order track</a></li>
+                      <li><a href="#">my account</a></li>
+                      <li><a href="#">checkout</a></li>
+                      <li class="phone">
+                          <i class="icon-phone"></i>
+                          <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+                      </li>
+                      <li class="email">
+                          <i class="icon-mail"></i>
+                          <a href="mailto:info@schon.chairs">info@schon.chairs</a>
+                      </li>
+                      <li><a href="#"><i class="icon-search"></i></a></li>
+                  </div>
+                  
+              </ul>
+            </div>
+
+            <div class="shopping-cart clearfix d-none d-lg-block">
+                <a href="#" class="icon-shopping-bag bag"></a>
+                <a href="#" class="cart">shopping cart</a>
+                <div class="cart-detail">
+                  <span class="items"> 3 items</span>
+                  <span class="price">$74.00</span>
+                </div>
+            </div>
+        </nav>
+        
+        
+  
+
+        
       
     </div>
   </div>
@@ -83,7 +127,7 @@
       <div class="container">
         
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6 new-collection">
             <div class="large">
               <img src="https://via.placeholder.com/589x563/4c4c4c" alt="design">
             
@@ -103,10 +147,10 @@
           </div>
           
           
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <div class="row">
               
-              <div class="col-6">
+              <div class="col-12 col-sm-6 vertical-col">
                 <div class="vertical">
                   <img src="https://via.placeholder.com/276x563/4c4c4c" alt="sofa">
                   <div class="box">
@@ -132,7 +176,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-sm-6 vertical-group">
                 <div class="square top">
                   <img src="https://via.placeholder.com/294x275/f8f8f8" alt="bean bag">
                   <div class="box">
@@ -188,7 +232,7 @@
         
         <div class="row">
           
-          <div class="col-4 width">
+          <div class="col-12 col-lg-4 horizontal-col width">
             <div class="horizontal top">
               <img src="https://via.placeholder.com/414x223/D0E9B0" alt="zio dining chair">
               <div class="box">
@@ -221,7 +265,7 @@
             </div>
           </div>
           
-          <div class="col-8 width">
+          <div class="col-12 col-lg-8 width">
             <div class="large text-dark">
               <div id="slider">
                 <img src="images/slider/owlcircle1.jpg" alt="counter stool">
@@ -344,7 +388,7 @@
         </div>
       
         <div class="row connected">
-          <div class="col-4 feature-item">
+          <div class="col-12 col-lg-4 feature-item">
             <img src="https://via.placeholder.com/400x210/F8F8F8" alt="Wall Decor Clocks">
             <div class="box">
               <div class="info">
@@ -360,7 +404,7 @@
             </div>
             
           </div>
-          <div class="col-4 feature-item">
+          <div class="col-12 col-lg-4 feature-item">
             <img src="https://via.placeholder.com/400x210/F1F1F1" alt="Wall Decor Clocks">
             <div class="box">
               <div class="info">
@@ -375,7 +419,7 @@
               
             </div>
           </div>
-          <div class="col-4 feature-item">
+          <div class="col-12 col-lg-4 feature-item">
             <img src="https://via.placeholder.com/400x210/F8F8F8" alt="Wall Decor Clocks">
             <div class="box">
               <div class="info">
@@ -406,7 +450,7 @@
           </div>
         </div>
         <div class="row slick4">
-          <div class="seller-item">
+          <div class="col-3 seller-item">
             
             <div class="wrap">
               <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
@@ -424,7 +468,7 @@
              
           </div>
           
-          <div class="seller-item">
+          <div class="col-3 seller-item">
             <div class="wrap clearfix">
               <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
               <div class="cover">
@@ -443,7 +487,7 @@
             </div>
           </div>
           
-          <div class="seller-item">
+          <div class="col-3 seller-item">
             <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
             <div class="info">
               <div class="name">wood chair</div>
@@ -451,7 +495,7 @@
             </div>
           </div>
           
-          <div class="seller-item">
+          <div class="col-3 seller-item">
             <div class="wrap">
               <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
               <div class="tags">
@@ -467,7 +511,7 @@
             
           </div>
          
-          <div class="seller-item">
+          <div class="col-3 seller-item">
             <div class="wrap">
               <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
               <div class="cover">
@@ -486,7 +530,7 @@
             </div>
           </div>
           
-          <div class="seller-item">
+          <div class="col-3 seller-item">
             <div class="wrap">
               <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
               <div class="cover">
@@ -505,7 +549,7 @@
             </div>
           </div>
           
-          <div class="seller-item">
+          <div class="col-3 seller-item">
            <div class="wrap clearfix">
              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
              <div class="cover">
@@ -540,31 +584,31 @@
         <div class="row">
           
           <div class="imglogo clearfix slick6">
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/devon.png" alt="devon">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
                <img src="images/logo/gan.png" alt="gan">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/artek.png" alt="artek">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/toncelli.png" alt="toncelli">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/duravit.png" alt="duravit">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/zanotta.png" alt="zanotta">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
                <img src="images/logo/gan.png" alt="gan">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/duravit.png" alt="duravit">
             </a>
-            <a href="#" class="brand">
+            <a href="#" class="col-2 brand">
               <img src="images/logo/devon.png" alt="devon">
             </a>
           </div>
@@ -580,7 +624,7 @@
     <div class="container">
       
       <ul class="services gray clearfix">
-        <li class="service col-3">
+        <li class="service col-12 col-md-6 col-lg-3">
           
           <div class="wrap">
             <i class="icon-flight"></i>
@@ -590,7 +634,7 @@
             </div>
           </div>
         </li>
-        <li class="service col-3">
+        <li class="service col-12 col-md-6 col-lg-3">
           
           <div class="wrap">
             <i class="icon-lifebuoy"></i>
@@ -600,7 +644,7 @@
             </div>
           </div>
         </li>
-        <li class="service col-3">
+        <li class="service col-12 col-md-6 col-lg-3">
           
           <div class="wrap">
             <i class="icon-dropbox"></i>
@@ -610,7 +654,7 @@
             </div>
           </div>
         </li>
-        <li class="service col-3">
+        <li class="service col-12 col-md-6 col-lg-3">
           
           <div class="wrap">
             <i class="icon-money"></i>
@@ -627,8 +671,10 @@
       <div class="footer-info">
         <div class="row">
           
-          <div class="col-3 desc">
-            <img src="images/logo/logo-gray.png" alt="schon">
+          <div class="col-12 col-lg-3 desc">
+            <div class="footer-logo">
+                <img src="images/logo/logo-gray.png" alt="schon">
+            </div>
             <p>Exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure</p>
             <div class="contact-info">
               <div class="address">
@@ -646,7 +692,7 @@
             </div>
           </div>
           
-          <div class="col-2 category">
+          <div class="col-12 col-sm-6 col-lg-2 category">
             <h5 class="title">categories</h5>
             <ul class="clearfix">
               <li><a href="#">chairs</a></li>
@@ -658,7 +704,7 @@
             </ul>
           </div>
           
-          <div class="col-2 information">
+          <div class="col-12 col-sm-6 col-lg-2 information">
             <h5 class="title">information</h5>
             <ul class="clearfix">
               <li><a href="#">about us</a></li>
@@ -670,7 +716,7 @@
             </ul>
           </div>
           
-          <div class="col-2 account">
+          <div class="col-12 col-sm-6 col-lg-2 account">
             <h5 class="title">account</h5>
             <ul class="clearfix">
               <li><a href="#">my account</a></li>
@@ -681,21 +727,21 @@
             </ul>
           </div>
           
-          <div class="col-3">
+          <div class="col-12 col-sm-6 col-lg-3 newsletter">
             <h5 class="title right">sign up newsletter</h5>
             <div class="row">
-              <div class="col-10">
+              <div class="col-10 col-sm-12">
                 <div class="client-email">
                   <input type="text" placeholder="YourEmail"  name="client_email" id="client_email" required />
                   <button class="button subscribe absolute">subscribe</button>
                 </div>
               </div>
             </div>
-            
+
             <div class="wrap clearfix">
-              <h4 class="title">follow us</h4>
+                <h4 class="title">follow us</h4>
             </div>
-            
+              
             <div class="social-media">
               <ul class="clearfix">
                 <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -717,11 +763,11 @@
   
   <div id="footer" class="bottom">
     <div class="container clearfix">
-      <div class="copyright">
+      <div class="copyright clearfix">
         <div class="copylogo">
-          &copy;schön.
+          &copy;schön. <span> - All rights Reserved</span>
         </div>
-        <p> - All rights Reserved</p>
+        
       </div>
     
       <div class="pay">
