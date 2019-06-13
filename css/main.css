@@ -1294,7 +1294,7 @@ button.slick-next.slick-arrow {
     width: 70%;
     height: 100%;
     z-index: 999;
-    transition: left .4s linear;
+    transition: all .4s linear;
   }
 
   #header .nav.open {
@@ -1581,7 +1581,7 @@ button.slick-next.slick-arrow {
   }
 
   .container {
-    max-width: 320px;
+    max-width: 300px;
   }
 
   .info {
@@ -1603,7 +1603,7 @@ button.slick-next.slick-arrow {
 
   .large .box {
     padding-left: 10px;
-    padding-top: 40%;
+    padding-top: 38%;
   }
 
   .large .info .subtitle.dark-bg {
@@ -1626,6 +1626,10 @@ button.slick-next.slick-arrow {
     font-size: 16px;
   }
 
+  .col-6.vertical-col {
+    width: 100%;
+  }
+
   .vertical .box {
     padding: 10px;
   }
@@ -1639,22 +1643,9 @@ button.slick-next.slick-arrow {
     margin: 10px 0;
   }
 
-  .circle-big {
-    margin-top: 20%;
-    width: 90px;
-    height: 90px;
-  }
-
-  .origin-price {
-    font-size: 12px;
-  }
-
-  .special-price {
-    font-size: 16px;
-  }
-
-  .special-price .decimal {
-    font-size: 14px;
+  .col-6.square-col {
+    margin-top: 30px;
+    width: 100%;
   }
 
   .square h3.title {
@@ -1666,7 +1657,7 @@ button.slick-next.slick-arrow {
   }
 
   .square .shop-group {
-    margin-top: 20%;
+    margin-top: 50%;
   }
 
   .square .price {

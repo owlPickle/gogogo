@@ -157,8 +157,8 @@ $(document).ready(function(){
     circleIndex = Number(this.id.substr(6));
     sliderImg.innerHTML = '<img src="images/slider/owl'+this.id+'.jpg" alt="counter stool">';
     circleActive();
-    clearInterval(time);
-    timeStart();
+    // clearInterval(time);
+    // timeStart();
   }
   
   function circleActive() {
@@ -168,19 +168,19 @@ $(document).ready(function(){
     document.getElementById("circle" + circleIndex).classList.add("dark");
   }
   
-  function timeStart() {
-    time = setInterval(function(){
-      circleIndex ++;
-      if (circleIndex > 3) {
-        circleIndex = 1;
-      }
-      sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
-      circleActive();
-    }, 1500);
+  // function timeStart() {
+  //   time = setInterval(function(){
+  //     circleIndex ++;
+  //     if (circleIndex > 3) {
+  //       circleIndex = 1;
+  //     }
+  //     sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
+  //     circleActive();
+  //   }, 1500);
     
-  }
+  // }
   
-  timeStart();
+  // timeStart();
   
   document.getElementById("circle" + circleIndex).classList.add("dark");
 

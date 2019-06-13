@@ -367,26 +367,14 @@
     display: block;
   }
 
-  #workspace.mobile * {
-    margin: 0;
-    padding: 0;
+  #about #workspace .row {
+    margin-left: 0;
   }
 
-  /* #about #workspace.mobile .imgleft {
-    width: 50%;
+  #workspace .slick-dots {
+    left: 36%;
   }
 
-  #about #workspace.mobile .square {
-    width: 50%;
-  }
-
-  #about #workspace.mobile .third {
-    width: 50%;
-  }
-
-  #about #workspace.mobile .imgright {
-    width: 50%;
-  } */
 
 
 
