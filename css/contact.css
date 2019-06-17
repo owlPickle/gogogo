@@ -177,6 +177,20 @@ textarea {
     margin-bottom: 30px;
   }
 
+  #map {
+    position: relative;
+    height: 150px;
+  }
+
+  #map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+
   #contact #footer .desc {
     text-align: center;
   }

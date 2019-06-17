@@ -162,19 +162,19 @@ $(document).ready(function(){
     document.getElementById("circle" + circleIndex).classList.add("dark");
   }
   
-  // function timeStart() {
-  //   time = setInterval(function(){
-  //     circleIndex ++;
-  //     if (circleIndex > 3) {
-  //       circleIndex = 1;
-  //     }
-  //     sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
-  //     circleActive();
-  //   }, 1000);
+  function timeStart() {
+    time = setInterval(function(){
+      circleIndex ++;
+      if (circleIndex > 3) {
+        circleIndex = 1;
+      }
+      sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
+      circleActive();
+    }, 1000);
     
-  // }
+  }
   
-  // timeStart();
+  timeStart();
   
   document.getElementById("circle" + circleIndex).classList.add("dark");
   
