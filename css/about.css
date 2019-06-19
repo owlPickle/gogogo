@@ -52,12 +52,10 @@
   margin-top: 10px;
 }
 
-
-
 /* header & about us */
 #about p {
   color: #5B5B5B;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 2.2;
 }
 
@@ -75,6 +73,7 @@
 }
 
 #about-us {
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -97,9 +96,13 @@
 }
   
 /* who we are */
+#company-info .container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 #company-info .content {
   margin-bottom: 70px;
-  letter-spacing: 1px;
 }
 
 #company-info h2.title {
@@ -115,7 +118,7 @@
 #company-info .main {
   margin-bottom: 24px;
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: #494949;
   font-weight: bold;
 }
@@ -131,7 +134,7 @@
 
 /* our team */ 
 #team h1.title {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 32px;
   font-size: 23px;
   font-weight: bold;
@@ -148,6 +151,10 @@
 
 #team ul {
   display: inline-block;
+}
+
+#team .staff {
+  margin-bottom: 30px;
 }
 
 #team .social {
@@ -192,7 +199,7 @@
 /* workspace */
 #workspace {
   position: relative;
-  margin: 100px 0;
+  margin: 60px 0;
   overflow: hidden;
 }
 
@@ -228,6 +235,9 @@
   color: #878787;
 }
 
+#workspace .horizontal {
+  margin-top: 15px;
+}
 
 #workspace .line-group {
   margin: 20px auto;
@@ -247,22 +257,22 @@
   background: #B6B6B6;
 }
 
+@media (min-width: 576px) {
+}
 
-@media (max-width: 992px) {
-  #team .staff {
-    margin-bottom: 30px;
-  }
+@media (min-width: 992px) {
 
   #workspace {
-    margin: 60px 0;
+    margin: 100px 0;
   }
+
+  #about p {
+    font-size: 14px;
+  }
+  
 }
 
-@media (max-width: 576px) {
-  #workspace .horizontal {
-    margin-top: 15px;
-  }
-}
+
 
 
 

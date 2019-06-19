@@ -9,15 +9,21 @@
   background: rgba(255, 255, 255, .4);
 }
 
+#header.small .navbar-nav li {
+  padding: 10px 10px;
+}
 
 /* content */
-
 #contact-info {
   padding: 70px 0;
 }
 
+#contact-info .detail {
+  text-align: center;
+}
+
 #contact-info .desc {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 #contact-info .desc .title {
@@ -42,7 +48,8 @@
 }
 
 #contact-info .question {
-  padding-left: 160px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 #contact-info .question .title {
@@ -80,57 +87,31 @@ textarea {
 }
 
 /* Map */
-.local {
-  width: 100px;
-  height: 50px;
-  background: #000;
+#map {
+  position: relative;
+  height: 150px;
 }
 
-.local .box {
-  top: 30%;
-  left: 13%;
-}
-
-.zoom i {
-  display: block;
-  margin-bottom: 2px;
-  background: #000;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  color: #fff;
-  text-align: center;
-}
-
-.zoom {
-  top: 42px;
-  left: 45px;
-}
-
-.local {
-  bottom: 47%;
-  left: 45%;
-}
-
-.triangle {
-  top: 13px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 12px 4px 0 4px;
-  border-color: #000000 transparent transparent transparent;
-  transform: rotate(25deg);
+#map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 /* footer */
+#contact .footer-info h5.title {
+  margin-bottom: 10px;
+}
+
 #contact #footer .desc {
-  margin-top: 7px;
+  margin-top: 30px;
   text-align: right;
 }
 
 #contact #footer .desc img {
   display: inline-block;
-  text-align: right;
 }
 
 #contact #footer .address {
@@ -143,10 +124,13 @@ textarea {
   font-size: 14px;
 }
 
+#contact #footer .desc {
+  text-align: center;
+}
+
 #contact #footer.bottom {
   padding-bottom: 100px;
   text-align: center;
-  line-height: 1.5;
 }
 
 #contact #footer.bottom span {
@@ -155,16 +139,12 @@ textarea {
   color: #8F8F8F;
 }
 
-
-@media (max-width: 992px) {
+@media (min-width: 576px) {
   
-  #contact-info .question {
-    margin-top: 40px;
-    padding-left: 0;
-  }
+  
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #contact-info {
     text-align: center;
   }
@@ -177,47 +157,42 @@ textarea {
     margin-bottom: 30px;
   }
 
-  #map {
-    position: relative;
-    height: 150px;
-  }
-
-  #map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
-
-
-  #contact #footer .desc {
-    text-align: center;
-  }
-
   #contact #footer.bottom {
     padding-bottom: 30px;
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 992px) {
   
-  #company-info .container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-
   #contact-info .question {
-    padding-left: 0;
+    margin-top: 0;
+    padding-left: 10%;
   }
 
-  #workspace .slick-dots {
-    left: 34%;
+  #contact-info .detail, #contact-info .question {
+    text-align: left;
   }
 
-  
-  
+  #contact-info .question .title {
+    padding-left: 20px;
+  }
+
+  #contact #footer .desc {
+    margin-top: 0;
+  }
+
+  #contact #footer .desc img {
+    text-align: right;
+  }
+
+  #contact #footer.bottom .container {
+    display: block;
+  }
 }
+
+
+
+
 
 
 
