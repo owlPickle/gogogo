@@ -132,6 +132,19 @@ $(document).ready(function(){
   });
   
   // slider PlugIn end
+  // blog-index img-board fade-in 
+  $(document).scroll(function(){
+    if ($(this).scrollTop() > 900) {
+      $('.img-group img').addClass('fade');
+    }
+  })
+  // blog-index scroll to message-wall
+  $('#blog-content .comment').on("click", function(e){
+    e.preventDefault();
+    var offset = $('.message-wall').offset();
+    
+    $('html, body').animate({scrollTop: offset.top});
+  })
   
  
   // large slider js practice

@@ -1,5 +1,7 @@
 @import "about.css";
 @import "contact.css";
+@import "blog.css";
+@import "blog_category.css";
 
 * {
   box-sizing: border-box;
@@ -303,14 +305,10 @@ hr {
   font-size: 20px;
 }
 
-#header.small li.heart {
-  padding-right: 0;
-}
-
 #header .shopping-cart .qty {
   position: absolute;
-  left: 16px;
-  top: 16px;
+  left: 15px;
+  top: 17px;
   background: #000;
   color: #fff;
   font-size: 10px;
@@ -1286,8 +1284,7 @@ button.slick-next.slick-arrow {
   }
 
   #header {
-    margin-top: 27px;
-    margin-bottom: 38px;
+    margin: 30px 10px;
   }
   
   #header ul.main {
@@ -1311,11 +1308,12 @@ button.slick-next.slick-arrow {
   }
 
   #header.small .navbar-nav li {
-    padding: 0 16px;
+    padding: 0 12px;
   }
 
-  #header.small .navbar-nav li.heart {
-    padding-right: 0;
+  #header .shopping-cart .qty {
+    left: 30px;
+    top: 13px;
   }
 
   .new-collection img {

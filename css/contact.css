@@ -105,12 +105,11 @@ textarea {
   margin-bottom: 10px;
 }
 
-#contact #footer .desc {
+#footer .desc.center {
   margin-top: 30px;
-  text-align: right;
 }
 
-#contact #footer .desc img {
+#footer .desc.center img {
   display: inline-block;
 }
 
@@ -133,15 +132,10 @@ textarea {
   text-align: center;
 }
 
-#contact #footer.bottom span {
+#footer.bottom.center span {
   margin-left: auto;
   font-size: 11px;
   color: #8F8F8F;
-}
-
-@media (min-width: 576px) {
-  
-  
 }
 
 @media (min-width: 768px) {

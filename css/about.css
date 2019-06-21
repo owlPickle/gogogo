@@ -73,13 +73,12 @@
 }
 
 #about-us {
-  margin-top: 60px;
+  margin-top: 56px;
   text-align: center;
 }
 
 #about-us .wrap {
-  padding-top: 78px;
-  padding-bottom: 61px;
+  padding: 80px 0;
 }
 
 #about-us .wrap .title {
@@ -91,8 +90,11 @@
 #about-us .wrap .subtitle {
   margin-top: 25px;
   font-size: 10px;
-  color: #707070;
   text-transform: capitalize;
+}
+
+#about-us .wrap .subtitle a {
+  color: #707070;
 }
   
 /* who we are */
@@ -257,10 +259,11 @@
   background: #B6B6B6;
 }
 
-@media (min-width: 576px) {
-}
-
 @media (min-width: 992px) {
+
+  #about-us {
+    margin-top: 0;
+  }
 
   #workspace {
     margin: 100px 0;

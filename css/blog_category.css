@@ -1,0 +1,184 @@
+.icon-ioxhost {
+  font-size: 18px;
+}
+
+#about-us.category {
+  margin-bottom: 50px;
+}
+
+.articals .artical {
+  margin-bottom: 78px;
+}
+
+.artical .date-block {
+  padding: 13%;
+  width: 55px;
+  height: 55px;
+}
+
+.artical .paragraph {
+  margin-bottom: 40px;
+}
+
+#blog-category .artical .more a {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5B5B5B;
+}
+
+.row.change-page {
+  margin-bottom: 110px;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+
+.change-page .button.page {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 26px;
+}
+
+#blog-category .change-page .button.page a {
+  color: #2B2B2B;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#blog-category .change-page .button.page.left a:before {
+  font-family: 'fontello';
+  content: '\e807';
+  padding-right: 6px;
+}
+
+#blog-category .change-page .button.page.right a:after {
+  font-family: 'fontello';
+  content: '\e805';
+  padding-left: 6px;
+}
+
+
+/* sidebar */
+
+.sidebar {
+  text-align: center;
+}
+
+.sidebar h2.title {
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar h2.title:after {
+  content: "";
+  background: black;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  height: 2px;
+  right: 50%;
+  width: 40px;
+  transform: translateX(50%);
+}
+
+.categories li {
+  padding-bottom: 10px;
+  float: none;
+}
+
+.pop-post, .artical-tags {
+  margin: 77px 0;
+}
+
+.sidebar .pop-post h2.title:after  {
+  width: 50px;
+}
+
+.pop-post .row {
+  margin-bottom: 10px;
+  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.pop-post .pop-intro {
+  margin-left: 0;
+  padding-right: 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.artical-tags li {
+  float: none;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.sidebar .artical-tags h2.title:after {
+  font-family: 'fontello';
+  width: 20px;
+}
+
+@media (min-width: 576px) {
+  .artical .date-block {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    text-align: right;
+  }
+
+  .sidebar h2.title:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    height: 2px;
+    width: 40px;
+    transform: none;
+  }
+
+  .pop-post .row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pop-post .pop-intro {
+    text-align: right;
+    margin-left: auto;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .artical .date-block {
+    width: 80px;
+    height: 80px;
+  }
+
+  #blog-category .change-page .button.page a {
+    font-size: 18px;
+  }
+
+  .change-page .button.page {
+    width: 128px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  
+
+  
+
+  
+}
+
+
