@@ -1,7 +1,7 @@
 @import "about.css";
 @import "contact.css";
 @import "blog.css";
-@import "blog_category.css";
+@import "blog_index.css";
 
 * {
   box-sizing: border-box;
