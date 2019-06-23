@@ -115,7 +115,7 @@ ul.small-nav li.host {
 /* img-big */
 
 #img-big .wrap {
-  margin: 0 auto;
+  margin: 0 -15px;
   height: 570px;
   background-image: url('https://via.placeholder.com/1200x570/F8F8F8');
   background-position: 50% 50%;
@@ -319,10 +319,15 @@ input.no-border, textarea.no-border {
   display: block;
 }
 
+@media (min-width: 420px) {
+  .container.content {
+    width: 67%;
+  }
+}
+
 @media (min-width: 576px) {
   .nav.small.dark-gray .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0;
   }
 
   .nav.small.dark-gray li {
@@ -343,10 +348,6 @@ input.no-border, textarea.no-border {
     padding: 16px;
     width: 80px;
     height: 80px;
-  }
-
-  .container.content {
-    width: 70%;
   }
 
   #blog #footer .footer-item, 
