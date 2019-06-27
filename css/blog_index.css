@@ -111,7 +111,8 @@
   width: 50px;
 }
 
-.pop-post .row {
+.pop-post a {
+  display: flex;
   margin-bottom: 10px;
   justify-content: space-between;
   justify-content: center;
@@ -160,7 +161,7 @@
     transform: none;
   }
 
-  .pop-post .row {
+  .pop-post a {
     flex-direction: row;
     justify-content: space-between;
   }
