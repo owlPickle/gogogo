@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product detail</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body id="product-detail">
+
+  <div id="header" class="small">
+    <div class="container-fluid clearfix">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a id="logo" class="navbar-brand" href="index.html#"><img src="images/logo/logo.png" alt="schon-logo"></a>
+        <a class="small phone d-none d-sm-block" href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+        <div class="wrap mobile-header ml-auto d-lg-none">
+          <a href="#" class="icon-user-circle"></a>
+
+          <div class="shopping-cart mobile qty index clearfix">
+            <div class="cart-qty clearfix">
+              <a href="#" class="icon-shopping-bag bag"></a>
+              <div class="qty circle">3</div>
+            </div>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav small-nav ml-auto">
+            <li><a href="index.html">home</a></li>
+            <li><a href="product_list.html#">products <i class="icon-down-open-mini"></i></a></li>
+            <li><a href="#">pages <i class="icon-down-open-mini"></i></a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="blog_index.html">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li class="small phone d-block d-sm-none"><a href="+1-(555)333-22-11">+1 (555)333 22 11</a></li>
+            <li class="icon-search-desktop">
+              <a href="#"><i class="icon-search"></i></a>
+            </li>
+            <li class="heart"><a href="#"><i class="icon-heart-empty"></i></a></li>
+            <li class="shopping-cart clearfix d-none d-lg-block">
+              <div class="cart-qty">
+                <a href="#" class="icon-shopping-bag bag"></a>
+                <div class="qty circle">3</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="popout small-header">
+        <div id="dropdown-cart">
+          <ul class="clearfix">
+            <li><a herf="#">
+                <div class="row item-row">
+                  <div class="col-4 col-sm-3 item-img">
+                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
+                  </div>
+                  <div class="col item-detail">
+                    <div class="item-name">Marvelous Modern 3 Seater</div>
+                    <div class="item-price">&euro; 599,00</div>
+                    <div class="item-qty">Qty:1</div>
+                  </div>
+                  <div class="col-1 delete">X</div>
+                </div>
+              </a></li>
+            <li><a herf="#">
+                <div class="row item-row">
+                  <div class="col-4 col-sm-3 item-img">
+                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
+                  </div>
+                  <div class="col item-detail">
+                    <div class="item-name">Marvelous Modern 3 Seater</div>
+                    <div class="item-price">&euro; 599,00</div>
+                    <div class="item-qty">Qty:1</div>
+                  </div>
+                  <div class="col-1 delete">X</div>
+                </div>
+              </a></li>
+            <li><a herf="#">
+                <div class="row item-row">
+                  <div class="col-4 col-sm-3 item-img">
+                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
+                  </div>
+                  <div class="col item-detail">
+                    <div class="item-name">Marvelous Modern 3 Seater</div>
+                    <div class="item-price">&euro; 599,00</div>
+                    <div class="item-qty">Qty:1</div>
+                  </div>
+                  <div class="col-1 delete">X</div>
+                </div>
+              </a></li>
+          </ul>
+          <div class="dropdown-divider"></div>
+          <div class="total">
+            <span class="total-title">Sub Total</span>
+            <div class="total-price">&euro; 799,00</div>
+          </div>
+          <div class="dropdown-divider"></div>
+          <div class="button-group">
+            <a href="shopping_cart.html#" class="button submit white-bg">view cart</a>
+            <a href="checkout.html#" class="button submit">checkout</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+
+    <div id="product-guide">
+      <div class="container">
+
+
+        <div class="row">
+          <div class="col-12 col-md-6 product-picture">
+            <ul class="interactive clearfix">
+              <li>
+                <i class="icon-heart"></i>
+                <a href="#" class="heart-count">27</a>
+              </li>
+              <li>
+                <i class="icon-comment"></i>
+                <a href="#" class="comment-count">12</a>
+              </li>
+              <li>
+                <i class="icon-share"></i>
+                <a href="#" class="fork-count">14</a>
+              </li>
+            </ul>
+
+            <div class="thumbnails">
+              <div class="big-picture slider-for">
+                <img src="https://via.placeholder.com/510x450/FFFFFF" alt="">
+                <img src="https://via.placeholder.com/510x450/D0E9B0" alt="">
+                <img src="https://via.placeholder.com/510x450/000000" alt="">
+                <img src="https://via.placeholder.com/510x450/62C5DE" alt="">
+                <img src="https://via.placeholder.com/510x450/D0E9B0" alt="">
+              </div>
+              <div class="row slider-nav">
+                <a href="#" class="col-3">
+                  <img src="https://via.placeholder.com/105x105/FFFFFF" alt="devon">
+                </a>
+                <a href="#" class="col-3">
+                  <img src="https://via.placeholder.com/105x105/D0E9B0" alt="devon">
+                </a>
+                <a href="#" class="col-3">
+                  <img src="https://via.placeholder.com/105x105/000000" alt="devon">
+                </a>
+                <a href="#" class="col-3">
+                  <img src="https://via.placeholder.com/105x105/62C5DE" alt="devon">
+                </a>
+                <a href="#" class="col-3">
+                  <img src="https://via.placeholder.com/105x105/D0E9B0" alt="devon">
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 product-info">
+            <div class="product-title">
+              <div class="subtitle">
+                <a href="product_list.html#">
+                  <span>Chairs</span>
+                </a>
+                <span class="icon-right-open-mini"></span>
+                <a href="product_detail.html#">
+                  <span>Products</span>
+                </a>
+              </div>
+              <h3 class="title">
+                kaila fabric chair
+              </h3>
+              <div class="reviews">
+                <div class="star">
+                  <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                    class="icon-star-empty"></i>
+                </div>
+                <span>Reviews(12)</span>
+              </div>
+              <div class="content-nav small">
+                <ul class="clearfix">
+                  <li class="date-detail"><a href="#">
+                      <i class="icon-share"></i>share
+                    </a></li>
+                  <li><a href="#">
+                      <i class="icon-exchange"></i>compare
+                    </a></li>
+                  <li><a href="#">
+                      <i class="icon-heart"></i>add to wishlist
+                    </a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="product-content">
+              <p>
+                Koila is a chair designed for restaurants and food lovers in general. Designed in collaboration with
+                restaurant professionals, it ensures comfort and an ideal posture, as there are armrests on both sides
+                of the chair.
+              </p>
+              <p>
+                Koila is a seat designed for restaurants and gastronomic places in general. Designed in collaboration
+                with professional of restaurants and hotels field, this armchair is composed of a curved shell with a
+                base in oak who has pinched the back upholstered in fabric or leather. It provides comfort and holds for
+                ideal sitting position,the arms may rest on the sides ofthe armchair.
+              </p>
+            </div>
+
+            <div class="product-checkout">
+              <div class="sales">
+                <div class="special-price">
+                  $ 79<span class="decimal">.00</span>
+                </div>
+                <div class="origin-price">
+                  $ 99<span class="decimal">.00</span>
+                </div>
+
+              </div>
+
+              <div class="qty">
+                <label for="quantity">Qty :</label>
+                <input placeholder="1" type="number" name="quantity" id="quantity" min="1" max="20">
+                <a href="#" class="button submit red-bg">add to cart</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="product-intro">
+      <div class="container">
+        <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+              aria-controls="pills-home" aria-selected="true">description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+              aria-controls="pills-profile" aria-selected="false">information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+              aria-controls="pills-contact" aria-selected="false">reviews(12)</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <p>Koila is a chair designed for restaurants and food lovers in general. Designed in collaboration with
+              restaurant professionals, it ensures comfort and an ideal posture, as there are armrests on both sides of
+              the chair.
+            </p>
+            <p>Koila is a seat designed for restaurants and gastronomic places in general. Designed in collaboration
+              with professional of restaurants and hotels field, this armchair is composed of a curved shell with a base
+              in oak who has pinched the back upholstered in fabric or leather. It provides comfort and holds for ideal
+              sitting position,the arms may rest on the sides ofthe armchair.
+              Solid oak construction.
+              Back in plywood (2 faces oak veneer) or upholstered in fabric, leather or eco-leather.
+              Seat upholstered in fabric, leather or eco-leather.
+            </p>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <p>Koila is a seat designed for restaurants and gastronomic places in general. Designed in collaboration
+              with professional of restaurants and hotels field, this armchair is composed of a curved shell with a base
+              in oak who has pinched the back upholstered in fabric or leather. It provides comfort and holds for ideal
+              sitting position,the arms may rest on the sides ofthe armchair.
+              Solid oak construction.
+              Back in plywood (2 faces oak veneer) or upholstered in fabric, leather or eco-leather.
+              Seat upholstered in fabric, leather or eco-leather.
+            </p>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="user-comments">
+              <div class="row">
+                <div class="col-4 col-sm-2 col-lg-1 user-photo">
+                  <img src="https://via.placeholder.com/65x65/F8F8F8" alt"">
+                </div>
+                <div class="col-8 col-sm-10 col-lg-11 user-comment">
+                  <div class="user-name">john wick</div>
+                  <div class="write-date">May24,2015</div>
+                  <p class="comment">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="seller">
+      <div class="container">
+
+        <div class="header-title clearfix">
+          <h2 class="title clearfix">best seller</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg  seller-item">
+            <div class="wrap clearfix">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              </a>
+              <div class="cover">
+                <div class="add">
+                  <ul class="clearfix">
+                    <li class="col-6"><a href="#"><i class="icon-shopping-bag"></i> Add to Cart</a></li>
+                    <li class="col-3"><a href="#"><i class="icon-heart-empty"></i></a></li>
+                    <li class="col-3"><a href="#">&#8644; </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="info">
+              <div class="name">bombi chair</div>
+              <div class="price">&euro; 399,00</div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg  seller-item">
+            <a href="product_detail.html">
+              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+            </a>
+            <div class="info">
+              <div class="name">wood chair</div>
+              <div class="price">&euro; 198,00</div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg  seller-item">
+            <div class="wrap">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              </a>
+              <div class="tags">
+                <div class="tag green">15% Off</div>
+                <div class="tag">new</div>
+              </div>
+            </div>
+
+            <div class="info">
+              <div class="name">bombi chair</div>
+              <div class="price">&euro; 200,00</div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg  seller-item">
+            <a href="product_detail.html">
+              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+            </a>
+            <div class="info">
+              <div class="name">wood chair</div>
+              <div class="price">&euro; 198,00</div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg  seller-item">
+
+            <div class="wrap">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              </a>
+              <div class="tags">
+                <div class="tag">new</div>
+              </div>
+              <div class="star">
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
+              </div>
+            </div>
+            <div class="info">
+              <div class="name">puff chair</div>
+              <div class="price">&euro; 287,00</div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="footer" class="gray-bg small-width">
+    <div class="container ">
+
+      <div class="footer-info">
+        <div class="row">
+
+          <div class="col-sm-6 col-md-2 products footer-item">
+            <h5 class="title">products</h5>
+            <ul class="clearfix">
+              <li><a href="product_list.html#">all</a></li>
+              <li><a href="product_list.html#">chairs</a></li>
+              <li><a href="product_list.html#">sofas</a></li>
+              <li><a href="product_list.html#">living</a></li>
+              <li><a href="product_list.html#">bedroom</a></li>
+              <li><a href="product_list.html#">tables</a></li>
+              <li><a href="product_list.html#">new</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-6 col-md-2 costomer footer-item">
+            <h5 class="title">costomer</h5>
+            <ul class="clearfix">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">support</a></li>
+              <li><a href="#">repair center</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-6 col-md-2 pages footer-item">
+            <h5 class="title">pages</h5>
+            <ul class="clearfix">
+              <li><a href="index.html#">home</a></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="product_list.html#">product</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="#">terms</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-6 col-md-2 socials footer-item">
+            <h5 class="title">socials</h5>
+            <ul class="clearfix">
+              <li><a href="#">twitter</a></li>
+              <li><a href="#">facebook</a></li>
+              <li><a href="#">google&#43;</a></li>
+              <li><a href="#">pinterest</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-12 col-md-4 desc center">
+            <img src="images/logo/allblack.png" alt="schon">
+            <div class="contact-info">
+              <div class="address">
+                <a href="#">Connaught Road Central Suite 18B,148<i class="icon-location"></i><br>New Yankee</a>
+              </div>
+              <div class="phone">
+                <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+                <i class="icon-phone"></i>
+              </div>
+              <div class="email">
+                <a href="mailto:info@schon.chairs">info@schon.chairs</a>
+                <i class="icon-mail"></i>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="footer" class="bottom center">
+    <div class="container clearfix">
+      <div class="paymiddle">
+        <i class="icon-cc-visa"></i>
+        <i class="icon-mastercard"></i>
+        <i class="icon-cc-amex"></i>
+        <i class="icon-cc-paypal"></i>
+        <i class="icon-cc-stripe"></i>
+      </div>
+      <span>Copyright shön. All right recerved</span>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="js/action.js"></script>
+</body>
+
+</html>
