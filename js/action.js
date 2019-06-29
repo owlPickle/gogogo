@@ -58,7 +58,7 @@ $(document).ready(function(){
       dots: false,             //顯示輪播圖片會顯示圓圈
       infinite: true,         //重覆輪播
       slidesToShow:5,         //輪播顯示個數
-      slidesToScroll: 5,      //輪播捲動個數
+      slidesToScroll: 2,      //輪播捲動個數
       autoplay: true,         //autoplay : 自動播放
       responsive: [
  
@@ -105,6 +105,22 @@ $(document).ready(function(){
         }
       }]
   });
+
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true
+  });
   
   
   $('#features').on("click", '.right', function(e){
@@ -132,6 +148,28 @@ $(document).ready(function(){
   });
   
   // slider PlugIn end
+
+  // shopping-cart pop
+  $('.shopping-cart').on("click", function(e){
+    $('.popout').addClass('pop-open');
+  });
+
+  $('.popout').on("click", function(e){
+    
+    var deleteItem = $('.delete'); 
+    
+    if (e.target != deleteItem) {
+      console.log(deleteItem);
+      console.log(e.target);
+      
+      
+      $('.popout').removeClass('pop-open');
+
+    }
+    
+    
+  });
+
   // blog-index img-board fade-in 
   $(document).scroll(function(){
     if ($(this).scrollTop() > 900) {
@@ -145,8 +183,36 @@ $(document).ready(function(){
     
     $('html, body').animate({scrollTop: offset.top});
   })
+
+  // product-list mobile category dropdown
+  $('.product-sidebar .drop-filter').on("click", function(e){
+    $('.product-sidebar .filter').toggleClass('filter-open');
+  });
+
+  $('.product-sidebar .drop-categories').on("click", function(e){
+    $('.product-sidebar .product-categories').toggleClass('categories-open');
+  })
+
+  $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 600,
+      values: [ 10, 599 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+
   
- 
+
+
+
+
+
   // large slider js practice
   
   // var sliderImg = document.getElementById("slider");
