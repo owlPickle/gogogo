@@ -4,6 +4,8 @@
 @import "blog_index.css";
 @import "product_detail.css";
 @import "product_list.css";
+@import "shopping_cart.css";
+@import "checkout.css";
 
 * {
   box-sizing: border-box;
@@ -123,7 +125,7 @@ hr {
 
 .tags .text {
   line-height: 25px;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .tag {
@@ -133,7 +135,7 @@ hr {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-}
+} 
 
 .tag.green {
   width: 63px;
@@ -1328,7 +1330,7 @@ button.slick-next.slick-arrow {
   }
 
   #dropdown-cart {
-    padding: 60px 30px;
+    padding: 30px 30px;
   }
 }
 

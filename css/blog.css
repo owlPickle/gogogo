@@ -63,6 +63,14 @@ body#blog {
   color: #696969;
 }
 
+#blog-category .button.submit, #blog .button.submit {
+  color: #fff;
+}
+
+#blog-category .button.submit.white-bg, #blog .button.submit.white-bg {
+  color: #000;
+}
+
 #header ul.small-nav  .shopping-cart {
   float: left;
 }

@@ -1,211 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Source+Sans+Pro&display=swap" rel="stylesheet">
-  
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/fontello.css">
-  
-	
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
   <link rel="stylesheet" href="css/main.css">
-  
+
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/action.js"></script>
-
 </head>
+
 <body>
-  
+
   <div id="header-top" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="row">
         <div class="col-lg-6">
-            <div class="topnav-left">
-                <ul class="clearfix">
-                  <li class="phone">
-                    <i class="icon-phone"></i>
-                    <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
-                  </li>
-                  <li class="email">
-                    <i class="icon-mail"></i>
-                    <a href="mailto:info@schon.chairs">info@schon.chairs</a>
-                  </li>
-                </ul>
-              </div>
+          <div class="topnav-left">
+            <ul class="clearfix">
+              <li class="phone">
+                <i class="icon-phone"></i>
+                <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+              </li>
+              <li class="email">
+                <i class="icon-mail"></i>
+                <a href="mailto:info@schon.chairs">info@schon.chairs</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        
+
         <div class="col-lg-6">
-            <div class="topnav-right">
-                <ul class="clearfix">
-                  <li><a href="#">order track</a></li>
-                  <li><a href="#">my account</a></li>
-                  <li><a href="#">checkout</a></li>
-                </ul>
-              </div>
+          <div class="topnav-right">
+            <ul class="clearfix">
+              <li><a href="#">order track</a></li>
+              <li><a href="#">my account</a></li>
+              <li><a href="checkout.html#">checkout</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  
+
   <div id="header">
     <div class="container clearfix">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a id="logo" class="navbar-brand" href="#"><img src="images/logo/logo.png" alt="schon-logo"></a>
-            <div class="wrap mobile-header ml-auto d-lg-none">
-                <a href="#" class="icon-user-circle"></a>
-      
-                <div class="shopping-cart mobile qty index clearfix">
-                  <div class="cart-qty clearfix">
-                    <a href="#" class="icon-shopping-bag bag"></a>
-                    <div class="qty circle">3</div>
-                  </div>
-                </div>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="#">products <i class="icon-down-open-mini"></i></a></li>
-                  <li><a href="#">pages <i class="icon-down-open-mini"></i></a></li>
-                  <li><a href="about.html">about</a></li>
-                  <li><a href="blog_index.html">blog</a></li>
-                  <li><a href="contact.html">contact</a></li>
-                  <li class="icon-search-desktop d-none d-lg-block">
-                    <a href="#"><i class="icon-search"></i></a>
-                  </li>
-                  <div class="header-top d-lg-none">
-                      <li><a href="#">order track</a></li>
-                      <li><a href="#">my account</a></li>
-                      <li><a href="#">checkout</a></li>
-                      <li class="phone">
-                          <i class="icon-phone"></i>
-                          <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
-                      </li>
-                      <li class="email">
-                          <i class="icon-mail"></i>
-                          <a href="mailto:info@schon.chairs">info@schon.chairs</a>
-                      </li>
-                      <li><a href="#"><i class="icon-search"></i></a></li>
-                  </div>
-                  
-              </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a id="logo" class="navbar-brand" href="index.html"><img src="images/logo/logo.png" alt="schon-logo"></a>
+        <div class="wrap mobile-header ml-auto d-lg-none">
+          <a href="#" class="icon-user-circle"></a>
 
-            
-
-            <div class="shopping-cart clearfix d-none d-lg-block">
-                <a href="#" class="icon-shopping-bag bag"></a>
-                <a href="#" class="cart">shopping cart</a>
-                <div class="cart-detail">
-                  <span class="items"> 3 items</span>
-                  <span class="price">$74.00</span>
-                </div>
+          <div class="shopping-cart mobile qty index clearfix">
+            <div class="cart-qty clearfix">
+              <a href="#" class="icon-shopping-bag bag"></a>
+              <div class="qty circle">3</div>
             </div>
-        </nav>
-
-        <div class="popout">
-          <div id="dropdown-cart">
-            <ul class="clearfix"> 
-              <li><a herf="#">
-                <div class="row item-row">
-                  <div class="col-4 col-sm-3 item-img">
-                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
-                  </div>
-                  <div class="col item-detail">
-                    <div class="item-name">Marvelous Modern 3 Seater</div>
-                    <div class="item-price">&euro; 599,00</div>
-                    <div class="item-qty">Qty:1</div>
-                  </div>
-                  <div class="col-1 delete">X</div>
-                </div>
-              </a></li>
-              <li><a herf="#">
-                <div class="row item-row">
-                  <div class="col-4 col-sm-3 item-img">
-                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
-                  </div>
-                  <div class="col item-detail">
-                    <div class="item-name">Marvelous Modern 3 Seater</div>
-                    <div class="item-price">&euro; 599,00</div>
-                    <div class="item-qty">Qty:1</div>
-                  </div>
-                  <div class="col-1 delete">X</div>
-                </div>
-              </a></li>
-              <li><a herf="#">
-                <div class="row item-row">
-                  <div class="col-4 col-sm-3 item-img">
-                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
-                  </div>
-                  <div class="col item-detail">
-                    <div class="item-name">Marvelous Modern 3 Seater</div>
-                    <div class="item-price">&euro; 599,00</div>
-                    <div class="item-qty">Qty:1</div>
-                  </div>
-                  <div class="col-1 delete">X</div>
-                </div>
-              </a></li>
-            </ul>
-            <div class="dropdown-divider"></div>
-            <div class="total">
-              <span class="total-title">Sub Total</span>
-              <div class="total-price">&euro; 799,00</div>
-            </div>
-            <div class="dropdown-divider"></div>
-            <div class="button-group">
-              <a href="#" class="button submit white-bg">view cart</a>
-              <a href="#" class="button submit">checkout</a>
-            </div>
-            
           </div>
         </div>
-        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li><a href="index.html">home</a></li>
+            <li><a href="product_list.html#">products <i class="icon-down-open-mini"></i></a></li>
+            <li><a href="#">pages <i class="icon-down-open-mini"></i></a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="blog_index.html">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li class="icon-search-desktop d-none d-lg-block">
+              <a href="#"><i class="icon-search"></i></a>
+            </li>
+            <div class="header-top d-lg-none">
+              <li><a href="#">order track</a></li>
+              <li><a href="#">my account</a></li>
+              <li><a href="checkout.html#">checkout</a></li>
+              <li class="phone">
+                <i class="icon-phone"></i>
+                <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
+              </li>
+              <li class="email">
+                <i class="icon-mail"></i>
+                <a href="mailto:info@schon.chairs">info@schon.chairs</a>
+              </li>
+              <li><a href="#"><i class="icon-search"></i></a></li>
+            </div>
+
+          </ul>
+        </div>
+
+
+
+        <div class="shopping-cart clearfix d-none d-lg-block">
+          <a href="#" class="icon-shopping-bag bag"></a>
+          <a href="#" class="cart">shopping cart</a>
+          <div class="cart-detail">
+            <span class="items"> 3 items</span>
+            <span class="price">$74.00</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="popout">
+        <div id="dropdown-cart">
+          <ul class="clearfix">
+            <li><a herf="#">
+                <div class="row item-row">
+                  <div class="col-4 col-sm-3 item-img">
+                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
+                  </div>
+                  <div class="col item-detail">
+                    <div class="item-name">Marvelous Modern 3 Seater</div>
+                    <div class="item-price">&euro; 599,00</div>
+                    <div class="item-qty">Qty:1</div>
+                  </div>
+                  <div class="col-1 delete">X</div>
+                </div>
+              </a></li>
+            <li><a herf="#">
+                <div class="row item-row">
+                  <div class="col-4 col-sm-3 item-img">
+                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
+                  </div>
+                  <div class="col item-detail">
+                    <div class="item-name">Marvelous Modern 3 Seater</div>
+                    <div class="item-price">&euro; 599,00</div>
+                    <div class="item-qty">Qty:1</div>
+                  </div>
+                  <div class="col-1 delete">X</div>
+                </div>
+              </a></li>
+            <li><a herf="#">
+                <div class="row item-row">
+                  <div class="col-4 col-sm-3 item-img">
+                    <img src="https://via.placeholder.com/74x74/f8f8f8" alt="">
+                  </div>
+                  <div class="col item-detail">
+                    <div class="item-name">Marvelous Modern 3 Seater</div>
+                    <div class="item-price">&euro; 599,00</div>
+                    <div class="item-qty">Qty:1</div>
+                  </div>
+                  <div class="col-1 delete">X</div>
+                </div>
+              </a></li>
+          </ul>
+          <div class="dropdown-divider"></div>
+          <div class="total">
+            <span class="total-title">Sub Total</span>
+            <div class="total-price">&euro; 799,00</div>
+          </div>
+          <div class="dropdown-divider"></div>
+          <div class="button-group">
+            <a href="shopping_cart.html#" class="button submit white-bg">view cart</a>
+            <a href="checkout.html#" class="button submit">checkout</a>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   </div>
-  
+
   <div id="content">
-    
+
     <div id="newproduct">
       <div class="container">
-        
+
         <div class="row">
           <div class="col-12 col-lg-6 new-collection">
-            <div class="large">
-              <img src="https://via.placeholder.com/589x563/4c4c4c" alt="design">
-            
-              <div class="box">
-                <div class="locate-wrap">
-                      <div class="info">
-                        <h4 class="subtitle dark-bg">furniture designs ideas</h4>
-                        <div class="title-big">
-                          <h3 class="title">new</h3>
-                          <h3>collection</h3>
-                        </div>
-                        <p>Consectetur adipisicing elit. Beatae accusamus, optio,<br>repellendus inventore</p>  
-                       </div>  
-                      <div class="price">$ 79.00</div>
-                </div>      
-              </div>  
-          
-            </div>
+            <a href="product_list.html#">
+              <div class="large">
+                <img src="https://via.placeholder.com/589x563/4c4c4c" alt="design">
+
+                <div class="box">
+                  <div class="locate-wrap">
+                    <div class="info">
+                      <h4 class="subtitle dark-bg">furniture designs ideas</h4>
+                      <div class="title-big">
+                        <h3 class="title">new</h3>
+                        <h3>collection</h3>
+                      </div>
+                      <p>Consectetur adipisicing elit. Beatae accusamus, optio,<br>repellendus inventore</p>
+                    </div>
+                    <div class="price">$ 79.00</div>
+                  </div>
+                </div>
+
+              </div>
+            </a>
+
           </div>
-          
-          
+
           <div class="col-12 col-lg-6">
             <div class="row">
-              
+
               <div class="col-12 col-sm-6 vertical-col">
                 <div class="vertical">
                   <img src="https://via.placeholder.com/276x563/4c4c4c" alt="sofa">
@@ -224,10 +231,10 @@
                         </div>
                       </div>
                     </div>
-                    
+
                     <div class="shop">
-                      <a href="#">shop now</a>
-                      <a href="#" class="border arrow"><i class="icon-right-open"></i></a>
+                      <a href="product_detail.html">shop now</a>
+                      <a href="product_detail.html" class="border arrow"><i class="icon-right-open"></i></a>
                     </div>
                   </div>
                 </div>
@@ -239,7 +246,8 @@
                     <div class="info">
                       <h3 class="title">acrtlic fabric<br>bean bag</h3>
                       <div class="star">
-                        <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                        <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                          class="icon-star-empty"></i>
                       </div>
                     </div>
                     <div class="shop-group">
@@ -247,7 +255,7 @@
                         $ 99.00
                       </div>
                       <div class="shop black">
-                        <a href="#">shop now</a>
+                        <a href="product_detail.html">shop now</a>
                       </div>
                     </div>
                   </div>
@@ -261,33 +269,34 @@
                     <div class="shop-group left">
                       <div class="sale">
                         <div class="star">
-                          <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                          <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                            class="icon-star-empty"></i>
                         </div>
                         <div class="origin-price">$ 129.00</div>
                         <div class="price">$ 99.00</div>
                         <div class="shop">
-                          <a href="#">hurry up!</a>
-                          <a href="#" class="border arrow dark"><i class="icon-right-open"></i></a>
+                          <a href="product_detail.html">hurry up!</a>
+                          <a href="product_detail.html" class="border arrow dark"><i class="icon-right-open"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
+
             </div>
           </div>
-          
+
         </div>
-        
+
       </div>
     </div>
-  
+
     <div id="designs">
       <div class="container">
-        
+
         <div class="row">
-          
+
           <div class="col-12 col-lg-4 horizontal-col width">
             <div class="horizontal top">
               <img src="https://via.placeholder.com/414x223/D0E9B0" alt="zio dining chair">
@@ -296,13 +305,13 @@
                   <h4 class="subtitle">chairs</h4>
                   <h3 class="title">zio dining chair</h3>
                 </div>
-                
+
                 <div class="shop shop-group">
-                  <a href="#">shop now</a>
-                  <a href="#" class="border arrow"><i class="icon-right-open"></i></a>
+                  <a href="product_list.html#">shop now</a>
+                  <a href="product_list.html#" class="border arrow"><i class="icon-right-open"></i></a>
                 </div>
-              </div> 
-              
+              </div>
+
             </div>
             <div class="horizontal bottom">
               <img src="https://via.placeholder.com/414x334/f8f8f8" alt="totem floor lamp">
@@ -311,16 +320,16 @@
                   <h4 class="subtitle">accessories / lighting</h4>
                   <h3 class=title>totem floor lamp</h3>
                 </div>
-                
+
                 <div class="shop shop-group gray">
-                  <a href="#">shop now</a>
-                  <a href="#" class="border arrow gray"><i class="icon-right-open"></i></a>
+                  <a href="product_list.html#">shop now</a>
+                  <a href="product_list.html#" class="border arrow gray"><i class="icon-right-open"></i></a>
                 </div>
-              </div> 
-              
+              </div>
+
             </div>
           </div>
-          
+
           <div class="col-12 col-lg-8 width">
             <div class="large text-dark">
               <div id="slider">
@@ -334,23 +343,25 @@
                     <h3>Counter stool</h3>
                   </div>
                   <p>Consectetur adipisicing elit. Beatae accusamus, optio,<br> repellendus inventore</p>
-                  
+
                 </div>
                 <div class="circle-group">
-                  <i id="circle1" class="circle"></i><i id="circle2" class="circle"></i><i id="circle3" class="circle"></i>
+                  <i id="circle1" class="circle"></i><i id="circle2" class="circle"></i><i id="circle3"
+                    class="circle"></i>
                 </div>
               </div>
             </div>
+
           </div>
-      
+
         </div>
-        
+
       </div>
     </div>
-  
+
     <div id="features">
       <div class="container">
-        
+
         <div class="featured-nav clearfix">
           <ul class="tab clearfix">
             <li class="active"><a href="#">featured</a></li>
@@ -362,24 +373,31 @@
             <div class="arror right"><i class="icon-right-open"></i></div>
           </div>
         </div>
-      
+
         <div class="row slick4">
           <div class="col-12 feature-item">
-            <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
-            
+            <a href="product_detail.html">
+              <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+            </a>
+
             <div class="item-info">
               <div class="star">
-                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
               <div class="name">bombi chair</div>
               <div class="price">&euro; 399,00</div>
             </div>
           </div>
           <div class="col-12 feature-item">
-            <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+            <a href="product_detail.html">
+              <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+            </a>
+
             <div class="item-info">
               <div class="star hide">
-                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
               <div class="name">marvelous modern 3 seater</div>
               <div class="price">&euro; 599,00</div>
@@ -387,71 +405,85 @@
           </div>
           <div class="col-12 feature-item">
             <div class="wrap relative">
-              <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+              </a>
               <div class="tags">
                 <div class="tag green big">
                   <div class="text">15% Off</div>
                 </div>
               </div>
             </div>
-            
+
             <div class="item-info">
               <div class="star">
-                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
               <div class="name">chair with armrests</div>
               <div class="price">&euro; 200,00</div>
             </div>
           </div>
           <div class="col-12 feature-item">
-            <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+            <a href="product_detail.html">
+              <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
+            </a>
             <div class="item-info">
               <div class="star hide">
-                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
               <div class="name">bombi chair</div>
               <div class="price">&euro; 399,00</div>
             </div>
           </div>
           <div class="col-12 feature-item">
+            <a href="product_detail.html">
               <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
-              <div class="item-info">
-                <div class="star hide">
-                  <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
-                </div>
-                <div class="name">marvelous modern 3 seater</div>
-                <div class="price">&euro; 599,00</div>
+            </a>
+            <div class="item-info">
+              <div class="star hide">
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
+              <div class="name">marvelous modern 3 seater</div>
+              <div class="price">&euro; 599,00</div>
+            </div>
           </div>
           <div class="col-12 feature-item">
+            <a href="product_detail.html">
               <img src="https://via.placeholder.com/275x275/F8F8F8" alt="feature-product-chair">
-              <div class="item-info">
-                <div class="star hide">
-                  <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
-                </div>
-                <div class="name">bombi chair</div>
-                <div class="price">&euro; 399,00</div>
+            </a>
+            <div class="item-info">
+              <div class="star hide">
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
+              <div class="name">bombi chair</div>
+              <div class="price">&euro; 399,00</div>
+            </div>
           </div>
-          
+
         </div>
-      
+
         <div class="row connected">
           <div class="col-12 col-lg-4 feature-item">
+
             <img src="https://via.placeholder.com/400x210/F8F8F8" alt="Wall Decor Clocks">
+
             <div class="box">
               <div class="info">
                 <h4 class="subtitle">wall decor</h4>
                 <h3 class="title">clocks</h3>
               </div>
-              
+
               <div class="shop gray shop-group left">
-                <a href="#">view</a>
-                <a href="#" class="border arrow view gray"><i class="icon-right-open"></i></a>
+                <a href="product_list.html#">view</a>
+                <a href="product_list.html#" class="border arrow view gray"><i class="icon-right-open"></i></a>
               </div>
-              
+
             </div>
-            
+
           </div>
           <div class="col-12 col-lg-4 feature-item">
             <img src="https://via.placeholder.com/400x210/F1F1F1" alt="Wall Decor Clocks">
@@ -460,12 +492,12 @@
                 <h4 class="subtitle">coffee tables</h4>
                 <h3 class="title">s.o.s blocks</h3>
               </div>
-              
+
               <div class="shop gray shop-group left">
-                <a href="#">view</a>
-                <a href="#" class="border arrow view gray"><i class="icon-right-open"></i></a>
+                <a href="product_list.html#">view</a>
+                <a href="product_list.html#" class="border arrow view gray"><i class="icon-right-open"></i></a>
               </div>
-              
+
             </div>
           </div>
           <div class="col-12 col-lg-4 feature-item">
@@ -474,23 +506,23 @@
               <div class="info">
                 <h4 class="subtitle">floor lamps</h4>
                 <h3 class="title">rocking lamp</h3>
-                
+
               </div>
               <div class="shop gray shop-group left">
-                <a href="#">view</a>
-                <a href="#" class="border arrow view gray"><i class="icon-right-open"></i></a>
+                <a href="product_list.html#">view</a>
+                <a href="product_list.html#" class="border arrow view gray"><i class="icon-right-open"></i></a>
               </div>
-              
+
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
-  
+
     <div id="seller">
       <div class="container">
-        
+
         <div class="header-title clearfix">
           <h2 class="title clearfix">best seller</h2>
           <div class="option d-none d-sm-block clearfix">
@@ -500,32 +532,37 @@
         </div>
         <div class="row slick4">
           <div class="col-12  seller-item">
-            
+
             <div class="wrap">
-              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              </a>
               <div class="tags">
                 <div class="tag">new</div>
               </div>
               <div class="star">
-                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
               </div>
             </div>
             <div class="info">
               <div class="name">puff chair</div>
               <div class="price">&euro; 287,00</div>
-            </div> 
-             
+            </div>
+
           </div>
-          
+
           <div class="col-12  seller-item">
             <div class="wrap clearfix">
-              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              </a>
               <div class="cover">
                 <div class="add">
                   <ul class="clearfix">
                     <li class="col-6"><a href="#"><i class="icon-shopping-bag"></i> Add to Cart</a></li>
                     <li class="col-3"><a href="#"><i class="icon-heart-empty"></i></a></li>
-                    <li class="col-3"><a href="#">&#8644;	</a></li>
+                    <li class="col-3"><a href="#">&#8644; </a></li>
                   </ul>
                 </div>
               </div>
@@ -535,78 +572,87 @@
               <div class="price">&euro; 399,00</div>
             </div>
           </div>
-          
+
           <div class="col-12  seller-item">
-            <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+            <a href="product_detail.html">
+              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+            </a>
             <div class="info">
               <div class="name">wood chair</div>
               <div class="price">&euro; 198,00</div>
             </div>
           </div>
-          
+
           <div class="col-12  seller-item">
             <div class="wrap">
-              <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              <a href="product_detail.html">
+                <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
+              </a>
               <div class="tags">
                 <div class="tag green">15% Off</div>
                 <div class="tag">new</div>
               </div>
             </div>
-            
+
             <div class="info">
               <div class="name">bombi chair</div>
               <div class="price">&euro; 200,00</div>
             </div>
-            
+
           </div>
 
           <div class="col-12  seller-item">
+            <a href="product_detail.html">
               <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
-              <div class="info">
-                <div class="name">wood chair</div>
-                <div class="price">&euro; 198,00</div>
-              </div>
+            </a>
+            <div class="info">
+              <div class="name">wood chair</div>
+              <div class="price">&euro; 198,00</div>
+            </div>
           </div>
 
           <div class="col-12  seller-item">
-            
-              <div class="wrap">
+
+            <div class="wrap">
+              <a href="product_detail.html">
                 <img src="https://via.placeholder.com/213x213/F8F8F8" alt="best-sellr-chair">
-                <div class="tags">
-                  <div class="tag">new</div>
-                </div>
-                <div class="star">
-                  <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i>
-                </div>
+              </a>
+              <div class="tags">
+                <div class="tag">new</div>
               </div>
-              <div class="info">
-                <div class="name">puff chair</div>
-                <div class="price">&euro; 287,00</div>
-              </div> 
-               
+              <div class="star">
+                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i
+                  class="icon-star-empty"></i>
+              </div>
+            </div>
+            <div class="info">
+              <div class="name">puff chair</div>
+              <div class="price">&euro; 287,00</div>
+            </div>
+
           </div>
-           
+
         </div>
-        
+
       </div>
     </div>
-    
+
     <div id="brands">
       <div class="container">
-        
+
         <div class="header-title">
           <h2 class="title">brands</h2>
           <h4 class="subtitle">furniture</h4>
         </div>
-        
+
         <div class="row">
-          
+
           <div class="imglogo clearfix slick6">
             <a href="#" class="col-2 brand">
               <img src="images/logo/devon.png" alt="devon">
             </a>
             <a href="#" class="col-2 brand">
-               <img src="images/logo/gan.png" alt="gan">
+              <img src="images/logo/gan.png" alt="gan">
             </a>
             <a href="#" class="col-2 brand">
               <img src="images/logo/artek.png" alt="artek">
@@ -621,7 +667,7 @@
               <img src="images/logo/zanotta.png" alt="zanotta">
             </a>
             <a href="#" class="col-2 brand">
-               <img src="images/logo/gan.png" alt="gan">
+              <img src="images/logo/gan.png" alt="gan">
             </a>
             <a href="#" class="col-2 brand">
               <img src="images/logo/duravit.png" alt="duravit">
@@ -630,20 +676,20 @@
               <img src="images/logo/devon.png" alt="devon">
             </a>
           </div>
-          
+
         </div>
-        
+
       </div>
     </div>
-    
+
   </div>
-  
-  <div id="footer" class= "gray-bg">
+
+  <div id="footer" class="gray-bg">
     <div class="container">
-      
+
       <ul class="services gray clearfix">
         <li class="service col-12 col-md-6 col-lg-3">
-          
+
           <div class="wrap">
             <i class="icon-flight"></i>
             <div class="info">
@@ -653,7 +699,7 @@
           </div>
         </li>
         <li class="service col-12 col-md-6 col-lg-3">
-          
+
           <div class="wrap">
             <i class="icon-lifebuoy"></i>
             <div class="info">
@@ -663,7 +709,7 @@
           </div>
         </li>
         <li class="service col-12 col-md-6 col-lg-3">
-          
+
           <div class="wrap">
             <i class="icon-dropbox"></i>
             <div class="info">
@@ -673,7 +719,7 @@
           </div>
         </li>
         <li class="service col-12 col-md-6 col-lg-3">
-          
+
           <div class="wrap">
             <i class="icon-money"></i>
             <div class="info">
@@ -683,15 +729,15 @@
           </div>
         </li>
       </ul>
-      
+
       <hr>
-      
+
       <div class="footer-info">
         <div class="row">
-          
+
           <div class="col-12 col-lg-3 desc">
             <div class="footer-logo">
-                <img src="images/logo/logo-gray.png" alt="schon">
+              <img src="images/logo/logo-gray.png" alt="schon">
             </div>
             <p>Exercitation ullamco laboris nisi ut aliquip ex commodo consequat. Duis aute irure</p>
             <div class="contact-info">
@@ -709,57 +755,57 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-12 col-sm-6 col-lg-2 category footer-item">
             <h5 class="title">categories</h5>
             <ul class="clearfix">
-              <li><a href="#">chairs</a></li>
-              <li><a href="#">sofas</a></li>
-              <li><a href="#">living</a></li>
-              <li><a href="#">bedroom</a></li>
-              <li><a href="#">tables</a></li>
-              <li><a href="#">new</a></li>
+              <li><a href="product_list.html#">chairs</a></li>
+              <li><a href="product_list.html#">sofas</a></li>
+              <li><a href="product_list.html#">living</a></li>
+              <li><a href="product_list.html#">bedroom</a></li>
+              <li><a href="product_list.html#">tables</a></li>
+              <li><a href="product_list.html#">new</a></li>
             </ul>
           </div>
-          
+
           <div class="col-12 col-sm-6 col-lg-2 information footer-item">
             <h5 class="title">information</h5>
             <ul class="clearfix">
-              <li><a href="#">about us</a></li>
-              <li><a href="#">contact us</a></li>
+              <li><a href="about.html">about us</a></li>
+              <li><a href="contact.html">contact us</a></li>
               <li><a href="#">terms &amp; conditions</a></li>
               <li><a href="#">privacy policy</a></li>
               <li><a href="#">customer survice</a></li>
               <li><a href="#">FAQs</a></li>
             </ul>
           </div>
-          
+
           <div class="col-12 col-sm-6 col-lg-2 account footer-item">
             <h5 class="title">account</h5>
             <ul class="clearfix">
               <li><a href="#">my account</a></li>
               <li><a href="#">order tracking</a></li>
               <li><a href="#">wish list</a></li>
-              <li><a href="#">shopping cart</a></li>
-              <li><a href="#">checkout</a></li>
+              <li><a href="shopping_cart.html#">shopping cart</a></li>
+              <li><a href="checkout.html#">checkout</a></li>
             </ul>
           </div>
-          
+
           <div class="col-12 col-sm-6 col-lg-3 newsletter footer-item">
             <h5 class="title right">sign up newsletter</h5>
             <div class="row">
               <div class="col-10 col-sm-12">
                 <div class="client-email">
-                  <input type="text" placeholder="YourEmail"  name="client_email" id="client_email" required />
+                  <input type="text" placeholder="YourEmail" name="client_email" id="client_email" required />
                   <button class="button subscribe">subscribe</button>
                 </div>
               </div>
             </div>
 
             <div class="wrap clearfix">
-                <h4 class="title">follow us</h4>
+              <h4 class="title">follow us</h4>
             </div>
-              
+
             <div class="social-media">
               <ul class="clearfix">
                 <li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -770,33 +816,31 @@
                 <li><a href="#"><i class="icon-whatsapp"></i></a></li>
               </ul>
             </div>
-            
+
           </div>
-          
+
         </div>
       </div>
-      
+
     </div>
   </div>
-  
+
   <div id="footer" class="bottom">
     <div class="container clearfix">
       <div class="copyright clearfix">
         <div class="copylogo">
           &copy;schön. <span> - All rights Reserved</span>
         </div>
-        
+
       </div>
-    
+
       <div class="pay">
         <img src="images/logo/Payment methods logos.png" alt="pay">
       </div>
     </div>
   </div>
-  
+
+
 </body>
+
 </html>
-
-
-
-

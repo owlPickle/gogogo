@@ -10,7 +10,7 @@
   padding: 0 15px;
 }
 
-#blog-category #about-us .wrap {
+#blog-category #about-us .wrap, #shopping-cart #about-us .wrap {
   padding-top: 80px;
   padding-bottom: 34px;
 }
