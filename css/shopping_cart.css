@@ -95,6 +95,16 @@
   padding: 10px 0;
 }
 
+.product-list .order-row .qty {
+  padding-left: 2.5em;
+}
+
+.product-list .order-row .item-total {
+  padding-left: 3.5em;
+  padding-right: 0;
+  font-size: 12px;
+}
+
 .product-list .item-price {
   margin: 10px 0;
 }
@@ -112,7 +122,7 @@
 
 .product-list .item-price, .product-list .item-total {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .product-list .qty input {
@@ -275,6 +285,16 @@
     margin-top: 20px;
     font-weight: bold;
   }
+
+  .product-list .order-row .qty {
+    padding-left: 3.5em;
+  }
+  
+  .product-list .order-row .item-total {
+    padding-left: 4.9em;
+    font-size: 12px;
+    padding-right: 0;
+  }
   
 }
 
@@ -327,6 +347,15 @@
     line-height: 77px;
   }
 
+  .product-list .order-row .qty {
+    padding-left: 15px;
+  }
+  
+  .product-list .order-row .item-total {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .shopping-step .line {
     margin-top: 45px;
   }
@@ -357,9 +386,6 @@
     width: 300px;
     float: right;
   }
-
-  
-
 }
 
 @media (min-width: 992px) {
@@ -399,6 +425,12 @@
     width: 50%;
   }
 
+}
+
+@media (min-width: 993px) {
+  .product-list .item-price, .product-list .order-row .item-total {
+    font-size: 14px;
+  }
 }
 
 
