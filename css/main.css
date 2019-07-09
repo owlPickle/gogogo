@@ -263,7 +263,7 @@ hr {
 }
 
 /* dropdown-cart */
-.popout {
+.popout, .pages-pop {
   display: none;
   justify-content: center;
   position: fixed;
@@ -277,6 +277,10 @@ hr {
 
 .pop-open {
   display: flex;
+}
+
+.pages-pop.open {
+  display: block;
 }
 
 .dropdown-divider {
@@ -337,6 +341,104 @@ hr {
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
+}
+
+.pages-pop .col-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pages-pop .page-pop {
+  position: absolute;
+  padding: 4.3%;
+  top: 8em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  height: auto;
+  text-align: left;
+  background: #fff;
+}
+
+.pages-pop .page-category h5, .menu-sale h5 {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  color: #535353;
+}
+
+.pages-pop .page-category h5 {
+  margin-bottom: 20px;
+}
+
+.pages-pop .page-category h5:after {
+  content: "";
+  background: black;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 2px;
+  width: 65px;
+}
+
+.pages-pop .page-category h5.office:after {
+  width: 35px;
+}
+
+.pages-pop .page-category {
+  padding-bottom: 20px;
+}
+
+.pages-pop .page-category li {
+  float: none;
+}
+
+.pages-pop .page-category a {
+  font-size: 12px;
+  color: #757575;
+}
+
+.pages-pop .menu-sale {
+  display: none;
+}
+
+.pages-pop .menu-sale .square {
+  position: static;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.pages-pop .menu-sale .sale {
+  margin-top: 20%;
+}
+
+.pages-pop .menu-sale .origin-price {
+  font-size: 14px;
+}
+
+.pages-pop .menu-sale .price {
+  font-size: 17px;
+}
+
+.pages-pop .menu-sale .shop {
+  position: absolute;
+  bottom: 3%;
+}
+
+.pages-pop .menu-sale .shop a {
+  letter-spacing: 0;
+}
+
+.pages-pop .menu-sale .shop i {
+  display: inline-block;
+  border: 2px solid #314369;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;  
+}
+
+.pages-pop .arrow {
+  display: none;
 }
 
 .button.submit {
@@ -462,7 +564,7 @@ hr {
 
 .navbar {
   position: fixed;
-  z-index: 999;
+  z-index: 111;
   width: 100%;
   top: 0;
   left: 0;
@@ -1332,6 +1434,99 @@ button.slick-next.slick-arrow {
   #dropdown-cart {
     padding: 30px 30px;
   }
+
+  /* page gropdown */
+  .pages-pop .col-3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .pages-pop .page-pop {
+    height: 463px;
+  }
+  
+  .pages-pop .page-category h5, .menu-sale h5 {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: #535353;
+  }
+  
+  .pages-pop .page-category h5 {
+    margin-bottom: 20px;
+  }
+  
+  .pages-pop .page-category h5:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    width: 65px;
+  }
+  
+  .pages-pop .page-category h5.office:after {
+    width: 35px;
+  }
+  
+  .pages-pop .page-category {
+    padding-bottom: 20px;
+  }
+  
+  .pages-pop .page-category li {
+    float: none;
+  }
+  
+  .pages-pop .page-category a {
+    font-size: 12px;
+    color: #757575;
+  }
+  
+  .pages-pop .menu-sale {
+    display: block;
+    position: relative;
+    background-image: url('../images/menu/arm.png');
+    background-position: 6em 3.6em;
+    background-repeat: no-repeat;
+    background-color: #E5E5E5;
+    background-size: contain;
+  }
+  
+  .pages-pop .menu-sale .square {
+    position: static;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+  
+  .pages-pop .menu-sale .sale {
+    margin-top: 20%;
+  }
+  
+  .pages-pop .menu-sale .origin-price {
+    font-size: 14px;
+  }
+  
+  .pages-pop .menu-sale .price {
+    font-size: 17px;
+  }
+  
+  .pages-pop .menu-sale .shop {
+    position: absolute;
+    bottom: 3%;
+  }
+  
+  .pages-pop .menu-sale .shop a {
+    letter-spacing: 0;
+  }
+  
+  .pages-pop .menu-sale .shop i {
+    display: inline-block;
+    border: 2px solid #314369;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;  
+  }
 }
 
 @media (min-width: 992px) {
@@ -1556,6 +1751,31 @@ button.slick-next.slick-arrow {
   .popout.small-header #dropdown-cart {
     margin-top: 70px;
   }
+
+  /* pages dropdown */
+  .pages-pop .page-pop {
+    width: 70%;
+  }
+
+  .pages-pop.small-header .page-pop  {
+    top: 92px;
+  .
+
+  .pages-pop .arrow {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+    top: -9px;
+    left: 39%;
+  }
+
+  .pages-pop.small-header .arrow {
+    display: none;
+  }
 }
   
 @media (min-width: 1200px) {
@@ -1583,6 +1803,14 @@ button.slick-next.slick-arrow {
   #seller .header-title .title {
     line-height: 38px;
     float: left;
+  }
+
+  .pages-pop .page-pop {
+    width: 62.5%;
+  }
+
+  .pages-pop .arrow {
+    left: 47%;
   }
 }
 

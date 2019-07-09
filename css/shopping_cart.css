@@ -2,6 +2,10 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+#shopping-cart #header {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #shopping-cart .nav.small .subtitle a, #cart_checkout .nav.small .subtitle a {
   line-height: 46px;
   color: #A7A7A7;
