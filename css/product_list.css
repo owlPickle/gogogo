@@ -242,8 +242,11 @@
   color: #A5A5A5;
   vertical-align: middle;
   text-align: center;
-  background: none;
   background-color: #fff;
+  background: url('../images/arrow/down.png');
+  background-repeat: no-repeat ;
+  background-position: 7.75rem 10px;
+  background-size: 12px;
 }
 
 .custom-select:focus {
