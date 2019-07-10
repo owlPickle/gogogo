@@ -299,6 +299,10 @@
     font-size: 12px;
     padding-right: 0;
   }
+
+  #shopping-cart #dropdown-cart, #cart_checkout #dropdown-cart {
+    margin-right: 9%;
+  }
   
 }
 
@@ -429,11 +433,21 @@
     width: 50%;
   }
 
+  #shopping-cart #dropdown-cart, #cart_checkout #dropdown-cart {
+    margin-top: 110px; 
+  }
+
 }
 
 @media (min-width: 993px) {
   .product-list .item-price, .product-list .order-row .item-total {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #shopping-cart #dropdown-cart, #cart_checkout #dropdown-cart {
+    margin-right: 14%;
   }
 }
 
