@@ -1,0 +1,20 @@
+
+
+@media (min-width: 992px) {
+  #weird-header .navbar {
+    padding: 20px 0;
+  }
+
+  #weird-header #header {
+    position: relative;
+  }
+
+  #weird-header #header:after {
+    content:'';
+    position: absolute;
+    top: 0;
+    background: #fff;
+    width: 50%;
+    height: 72px;
+  }
+}

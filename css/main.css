@@ -8,6 +8,7 @@
 @import "checkout.css";
 @import "broken-page.css";
 @import "search.css";
+@import "weird-header.css";
 
 * {
   box-sizing: border-box;
