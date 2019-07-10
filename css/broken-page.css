@@ -1,0 +1,79 @@
+#broken-page ::placeholder {
+  color:#545454;
+  font-size: 12px;
+}
+
+#broken-page h1, #broken-page h3 {
+  color: #545454;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+#broken-page h3 {
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+#broken-page {
+  background: #F6F6F6;
+}
+
+#broken-page .wrap {
+  margin: 0 auto;
+  margin-top: 180px;
+  width: 100%;
+  height: 434px;
+  text-align: center;
+}
+
+.found {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+#broken-page .found input {
+  border: 1px solid #545454;
+  border-radius: 0;
+  padding-left: 15px;
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+}
+
+.found .search-page {
+  position: absolute;
+  right: 6%;
+  top: 20%;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#broken-page .search-page .icon-search {
+  color: #767676;
+}
+
+#broken-page .icon-home {
+  font-size: 12px;
+  color: #545454;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  #broken-page .wrap {
+    width: 50%;
+  }
+
+  #broken-page .found input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #broken-page .wrap {
+    width: 35.4%;
+  }
+}
+
+@media (min-width: 992px) {
+  
+}
