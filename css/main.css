@@ -7,6 +7,7 @@
 @import "shopping_cart.css";
 @import "checkout.css";
 @import "broken-page.css";
+@import "search.css";
 
 * {
   box-sizing: border-box;

@@ -1,0 +1,36 @@
+#other-page.search ::placeholder {
+  font-size: 20px;
+}
+
+#other-page.search .page-wrap {
+  width: 80%;
+}
+
+#other-page.search input {
+  border: unset;
+  background: #F6F6F6;
+  height: 62px;
+  width: auto;
+}
+
+#other-page.search .main-search {
+  display: flex;
+  margin-bottom: 50%;
+}
+
+#other-page.search .main-search a {
+  line-height: 62px;
+}
+
+@media (min-width: 992px) {
+  #other-page.search #header {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    background: #fff;
+  }
+
+  #other-page.search .page-wrap {
+    width: 50%;
+  }
+}

@@ -1,24 +1,24 @@
-#broken-page ::placeholder {
+#other-page ::placeholder {
   color:#545454;
   font-size: 12px;
 }
 
-#broken-page h1, #broken-page h3 {
+#other-page h1, #other-page h3 {
   color: #545454;
   font-weight: bold;
   font-size: 100px;
 }
 
-#broken-page h3 {
+#other-page h3 {
   padding: 40px 0;
   font-size: 20px;
 }
 
-#broken-page {
+#other-page {
   background: #F6F6F6;
 }
 
-#broken-page .wrap {
+#other-page .page-wrap {
   margin: 0 auto;
   margin-top: 180px;
   width: 100%;
@@ -31,7 +31,7 @@
   margin-bottom: 60px;
 }
 
-#broken-page .found input {
+#other-page .found input {
   border: 1px solid #545454;
   border-radius: 0;
   padding-left: 15px;
@@ -48,32 +48,28 @@
   text-decoration: none;
 }
 
-#broken-page .search-page .icon-search {
+#other-page .search-page i {
   color: #767676;
 }
 
-#broken-page .icon-home {
-  font-size: 12px;
+#other-page .icon-home {
+  font-size: 20px;
   color: #545454;
   font-weight: bold;
 }
 
 @media (min-width: 576px) {
-  #broken-page .wrap {
+  #other-page .page-wrap {
     width: 50%;
   }
 
-  #broken-page .found input {
+  #other-page .found input {
     width: 100%;
   }
 }
 
 @media (min-width: 768px) {
-  #broken-page .wrap {
+  #other-page .page-wrap {
     width: 35.4%;
   }
-}
-
-@media (min-width: 992px) {
-  
 }

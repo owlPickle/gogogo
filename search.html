@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact Us</title>
+  <title>Search</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,14 +17,15 @@
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/action.js"></script>
+
 </head>
 
-<body id="contact">
+<body id="other-page" class="search">
 
   <div id="header" class="small">
     <div class="container-fluid clearfix">
@@ -67,6 +68,7 @@
                 <div class="qty circle">3</div>
               </div>
             </li>
+            <li><a href="#"><i class="icon-ioxhost"></i></a></li>
           </ul>
         </div>
       </nav>
@@ -162,7 +164,6 @@
         </div>
       </div>
 
-
       <div class="popout small-header">
         <div id="dropdown-cart">
           <ul class="clearfix">
@@ -222,193 +223,18 @@
     </div>
   </div>
 
-  <div id="content">
-
-    <div id="about-us" class="contact sofa">
-      <div class="container-fluid">
-
-        <div class="wrap">
-          <h1 class="title">contact us</h1>
-
-          <div class="subtitle">
-            <a href="index.html">
-              <span>home</span>
-            </a>
-            <span class="icon-right-open-mini"></span>
-            <a href="contact.html">
-              <span>Contact</span>
-            </a>
-
-          </div>
-        </div>
-
+  <div class="page-wrap">
+      
+      <div class="main-search">
+        <input class="col-10" type="text" placeholder="Search...">
+        <a href="#" class="search-page col"><i class="icon-mic-outline"></i></a>
+        <a href="#" class="search-page col"><i class="icon-search"></i></a>
       </div>
+  
+      <a href="index.html" class="icon-home">Back To Home</a>
+  
     </div>
-
-    <div id="contact-info">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-sm-12 col-lg-6 detail">
-
-            <div class="desc">
-              <h2 class="title">schön. chair maker</h2>
-              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
-
-            <div class="row">
-
-              <div class="col-12 col-md-6 address-info contact-detail">
-                <div class="title">Address</div>
-                <p>Suite 18B, 148 Connaught Road<br>Central<br>New Yankee</p>
-              </div>
-
-              <div class="col-12 col-md-3 phone contact-detail">
-                <div class="title">Phone</div>
-                <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
-              </div>
-
-              <div class="col-12 col-md-3 email contact-detail">
-                <div class="title">E-Mail</div>
-                <a href="mailto:info@schon.chairs">info@schon.chairs</a>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-sm-12 col-lg-6 question">
-            <h3 class="title">Have a question</h3>
-            <form action="contact_submit" method="post">
-
-              <div class="col-12">
-                <div class="client-name">
-                  <input type="text" placeholder="Name" name="client_name" id="client_name" required />
-                </div>
-              </div>
-
-              <div class="col-12 client-email">
-                <input type="text" placeholder="Email" name="client_email" id="client_email" required />
-              </div>
-
-              <div class="col-12 subject">
-                <input type="text" placeholder="Subject" name="subject" id="subject">
-              </div>
-
-              <div class="col-12 message">
-                <textarea name="client_message" placeholder="Message"></textarea>
-              </div>
-
-              <div class="col-12">
-                <button class="button contact-send">Send</button>
-              </div>
-
-
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div id="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.5811269696496!2d-74.02030495195929!3d40.61706448748953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0761f2f153%3A0xd6172c4336f81ec6!2sDyker+Beach+Golf+Course!5e0!3m2!1szh-TW!2stw!4v1559265353370!5m2!1szh-TW!2stw"
-        width="100%" height="570" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-
-
-  </div>
-
-  <div id="footer">
-    <div class="container">
-
-      <div class="footer-info">
-        <div class="row">
-
-          <div class="col-sm-6 col-md-2 products footer-item">
-            <h5 class="title">products</h5>
-            <ul class="clearfix">
-              <li><a href="product_list.html#">all</a></li>
-              <li><a href="product_list.html#">chairs</a></li>
-              <li><a href="product_list.html#">sofas</a></li>
-              <li><a href="product_list.html#">living</a></li>
-              <li><a href="product_list.html#">bedroom</a></li>
-              <li><a href="product_list.html#">tables</a></li>
-              <li><a href="product_list.html#">new</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-6 col-md-2 costomer footer-item">
-            <h5 class="title">costomer</h5>
-            <ul class="clearfix">
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">support</a></li>
-              <li><a href="#">repair center</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-6 col-md-2 pages footer-item">
-            <h5 class="title">pages</h5>
-            <ul class="clearfix">
-              <li><a href="index.html#">home</a></li>
-              <li><a href="contact.html">contact</a></li>
-              <li><a href="product_list.html#">product</a></li>
-              <li><a href="about.html">about</a></li>
-              <li><a href="#">terms</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-6 col-md-2 socials footer-item">
-            <h5 class="title">socials</h5>
-            <ul class="clearfix">
-              <li><a href="#">twitter</a></li>
-              <li><a href="#">facebook</a></li>
-              <li><a href="#">google&#43;</a></li>
-              <li><a href="#">pinterest</a></li>
-            </ul>
-          </div>
-
-          <div class="col-sm-12 col-md-4 desc center">
-            <img src="images/logo/allblack.png" alt="schon">
-            <div class="contact-info">
-              <div class="address">
-                <a href="#">Connaught Road Central Suite 18B,148<i class="icon-location"></i><br>New Yankee</a>
-              </div>
-              <div class="phone">
-                <a href="+1-(555)333-22-11">+1 (555)333 22 11</a>
-                <i class="icon-phone"></i>
-              </div>
-              <div class="email">
-                <a href="mailto:info@schon.chairs">info@schon.chairs</a>
-                <i class="icon-mail"></i>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div id="footer" class="bottom center">
-    <div class="container clearfix">
-      <div class="paymiddle">
-        <i class="icon-cc-visa"></i>
-        <i class="icon-mastercard"></i>
-        <i class="icon-cc-amex"></i>
-        <i class="icon-cc-paypal"></i>
-        <i class="icon-cc-stripe"></i>
-      </div>
-      <span>Copyright shön. All right recerved</span>
-    </div>
-  </div>
-
+  
 
 </body>
 
