@@ -169,11 +169,20 @@ $(document).ready(function () {
 
   // pages pop
   $('.nav-pages').on("click", function (e) {
-    $('.pages-pop').addClass('open');
+    $('.pages-pop').fadeIn();
   });
 
   $('.pages-pop').on("click", function(){
-    $('.pages-pop').removeClass('open');
+    $('.pages-pop').fadeOut();
+  })
+
+  // letter pop
+  setTimeout(function(){
+    $('.popup').fadeIn();
+  }, 2000);
+
+  $('.popup').on("click", function(){
+    $('.popup').fadeOut();
   })
 
   // blog-index img-board fade-in 
