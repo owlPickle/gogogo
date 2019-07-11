@@ -286,57 +286,59 @@ hr {
   margin: 0;
 }
 
-#dropdown-cart {
-  margin-top: 56px;
+.dropdown-cart {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 0;
   padding: 30px 20px;
   width: 100%;
-  max-width: 425px;
   height: 495px;
   background: #fff;
+  z-index: 999;
 }
 
-#dropdown-cart ul {
+.dropdown-cart ul {
   display: flex;
   flex-direction: column;
 }
 
-#dropdown-cart img {
+.dropdown-cart img {
   width: auto;
 }
 
-#dropdown-cart li {
+.dropdown-cart li {
   padding-bottom: 15px;
 }
 
-#dropdown-cart .item-name, #dropdown-cart .item-qty {
+.dropdown-cart .item-name, .dropdown-cart .item-qty {
   font-size: 12px;
-}
-
-#dropdown-cart .item-price {
+}.
+.dropdown-cart .item-price {
   font-size: 14px;
 }
 
-#dropdown-cart .item-qty {
+.dropdown-cart .item-qty {
   margin-top: 10px;
 }
 
-#dropdown-cart .delete {
+.dropdown-cart .delete {
   line-height: 74px;
   color: #F05C5C;
   cursor: pointer;
 }
 
-#dropdown-cart .total {
+.dropdown-cart .total {
   display: flex;
   padding: 28px 0;
   justify-content: space-between;
 }
 
-#dropdown-cart .total-title {
+.dropdown-cart .total-title {
   color: #757575;
 }
 
-#dropdown-cart .button-group {
+.dropdown-cart .button-group {
   display: flex;
   margin-top: 20px;
   justify-content: space-between;
@@ -1499,10 +1501,15 @@ button.slick-next.slick-arrow {
     justify-content: flex-end; 
   }
 
-  #dropdown-cart {
-    margin-right: 4%;
+  .dropdown-cart.small-header {
+    left: 45%;
+  }
+
+  .dropdown-cart {
     padding: 40px 30px;
     max-width: 340px;
+    left: 50%;
+    top: 10%;
   }
 
   .pop-letter {
@@ -1553,8 +1560,9 @@ button.slick-next.slick-arrow {
     width: 208px;
   }
 
-  #dropdown-cart {
+  .dropdown-cart, .dropdown-cart.small-header {
     padding: 30px 30px;
+    left: 55%;
   }
 
   /* page gropdown */
@@ -1870,12 +1878,13 @@ button.slick-next.slick-arrow {
     margin-right: auto;
   }
 
-  #dropdown-cart {
-    margin-top: 110px;
+  .dropdown-cart {
+    top: 110px;
   }
 
-  .popout.small-header #dropdown-cart {
-    margin-top: 70px;
+  .dropdown-cart.small-header {
+    top: 92px;
+    left: 67%;
   }
 
   /* pages dropdown */
@@ -1927,6 +1936,14 @@ button.slick-next.slick-arrow {
     float: left;
   }
 
+  .dropdown-cart {
+    left: 67%;
+  }
+
+  .dropdown-cart.small-header {
+    left: 71%;
+  }
+
   .page-pop {
     width: 62.5%;
   }
@@ -1941,11 +1958,7 @@ button.slick-next.slick-arrow {
 }
 
 @media(min-width: 1400px) {
-  #dropdown-cart {
-    margin-right: 15%;
-  }
-
-  .popout.small-header #dropdown-cart {
-    margin-right: 3%;
+  .dropdown-cart.small-header {
+    left: 75%;
   }
 }

@@ -150,22 +150,15 @@ $(document).ready(function () {
   // slider PlugIn end
 
   // shopping-cart pop, 
-  $('.shopping-cart').on("click", function (e) {
-    $('.popout').addClass('pop-open');
+  $('.shopping-cart').on("click", function () {
+    $('.popup').fadeIn();
+    $('.dropdown-cart').fadeIn();
   });
 
-  $('.popout').on("click", function (e) {
-
-    var deleteItem = $('.delete');
-
-    if (e.target != deleteItem) {
-
-      $('.popout').removeClass('pop-open');
-
-    }
-
-
-  });
+  $('.popup').on("click", function(){
+    $('.popup').fadeOut();
+    $('.dropdown-cart').fadeOut();
+  })
 
   // pages pop
   $('.nav-pages').on("click", function (e) {
@@ -174,7 +167,7 @@ $(document).ready(function () {
   });
 
   $('.popup').on("click", function(){
-    $('.popup').fadeIn();
+    $('.popup').fadeOut();
     $('.page-pop').fadeOut();
   })
 

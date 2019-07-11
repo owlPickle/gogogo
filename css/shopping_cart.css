@@ -299,10 +299,6 @@
     font-size: 12px;
     padding-right: 0;
   }
-
-  #shopping-cart #dropdown-cart, #cart_checkout #dropdown-cart {
-    margin-right: 9%;
-  }
   
 }
 
@@ -433,8 +429,9 @@
     width: 50%;
   }
 
-  #shopping-cart #dropdown-cart, #cart_checkout #dropdown-cart {
-    margin-top: 110px; 
+  #shopping-cart .dropdown-cart, #cart_checkout .dropdown-cart {
+    top: 112px;
+    left: 62%;
   }
 
 }
@@ -446,8 +443,8 @@
 }
 
 @media (min-width: 1200px) {
-  #shopping-cart #dropdown-cart, #cart_checkout #dropdown-cart {
-    margin-right: 14%;
+  #shopping-cart .dropdown-cart, #cart_checkout .dropdown-cart {
+    left: 66%;
   }
 }
 
