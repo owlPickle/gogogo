@@ -179,10 +179,12 @@ $(document).ready(function () {
   // letter pop
   setTimeout(function(){
     $('.popup').fadeIn();
+    $('.pop-letter').fadeIn();
   }, 2000);
 
-  $('.popup').on("click", function(){
+  $('.popup').on("click", function(e){  
     $('.popup').fadeOut();
+    $('.pop-letter').fadeOut();
   })
 
   // blog-index img-board fade-in 

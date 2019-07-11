@@ -275,7 +275,7 @@ hr {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0, .4);
-  z-index: 999;
+  z-index: 5;
 }
 
 .pop-open {
@@ -441,14 +441,19 @@ hr {
 }
 
 .pop-letter {
-  position: relative;
+  display: none;
+}
+.pop-letter {
+  position: absolute;
   margin: 0 auto;
-  margin-top: 250px;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
   height: 421px;
   background-color: #fff;
+  z-index: 999;
 }
-
 .pop-letter:after {
   content: "";
   position: absolute;
@@ -468,7 +473,7 @@ hr {
   position: absolute;
   left: 10%;
   top: 14%;
-  width: 70%;
+  width: 72%;
   z-index: 999;
 }
 
@@ -1484,6 +1489,7 @@ button.slick-next.slick-arrow {
   }
 
   .pop-letter {
+    width: 85%;
     background-image: url('../images/popup/pop-chair.png');
     background-position: 85% 50%;
     background-repeat: no-repeat;
@@ -1626,10 +1632,6 @@ button.slick-next.slick-arrow {
     width: 20px;
     height: 20px;  
   }
-
-  .pop-letter {
-    width: 75%;
-  }
 }
 
 @media (min-width: 992px) {
@@ -1729,6 +1731,10 @@ button.slick-next.slick-arrow {
   #header .shopping-cart .qty {
     left: 30px;
     top: 13px;
+  }
+
+  .navbar {
+    z-index: 0;
   }
 
   .new-collection img {
@@ -1881,16 +1887,7 @@ button.slick-next.slick-arrow {
   }
 
   .pop-letter {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 250px;
-    width: 55%;
-    height: 421px;
-    background-image: url('../images/popup/pop-chair.png');
-    background-position: 85% 50%;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    background-size: auto;
+    width: 65%;
   }
 }
   
