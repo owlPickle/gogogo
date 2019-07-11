@@ -169,16 +169,18 @@ $(document).ready(function () {
 
   // pages pop
   $('.nav-pages').on("click", function (e) {
-    $('.pages-pop').fadeIn();
+    $('.popup').fadeIn();
+    $('.page-pop').fadeIn();
   });
 
-  $('.pages-pop').on("click", function(){
-    $('.pages-pop').fadeOut();
+  $('.popup').on("click", function(){
+    $('.popup').fadeIn();
+    $('.page-pop').fadeOut();
   })
 
   // letter pop
   setTimeout(function(){
-    $('.popup').fadeIn();
+    $('.popup.timeout').fadeIn();
     $('.pop-letter').fadeIn();
   }, 2000);
 
