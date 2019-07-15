@@ -182,6 +182,19 @@ $(document).ready(function () {
     $('.pop-letter').fadeOut();
   })
 
+  $('.pop-letter').find('.delete').on("click", function(){
+    $('.popup').click();
+  })
+
+  // search-page 
+  $('#search-page.searching').find('.icon-cancel').on("click", function(){
+    $('#search-page.searching').removeClass('open');
+  })
+
+  $('.navbar-nav').find('.nav-search').on("click", function(){
+    $('#search-page.searching').toggleClass('open');
+  })
+
   // blog-index img-board fade-in 
   $(document).scroll(function () {
     if ($(this).scrollTop() > 900) {

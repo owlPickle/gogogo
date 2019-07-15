@@ -25,6 +25,10 @@
   height: 12px;
 }
 
+.ui-slider .ui-slider-handle {
+  cursor: pointer;
+}
+
 /* ui end */
 
 .custom-control-label::before {
