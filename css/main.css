@@ -6,7 +6,7 @@
 @import "product_list.css";
 @import "shopping_cart.css";
 @import "checkout.css";
-@import "broken-page.css";
+@import "404.css";
 @import "search.css";
 @import "weird-header.css";
 
@@ -462,7 +462,7 @@ hr {
 }
 
 .pop-letter {
-  position: absolute;
+  position: fixed;
   margin: 0 auto;
   top: 30%;
   left: 50%;
@@ -486,6 +486,16 @@ hr {
   height: 100%;
   opacity: .2;
   z-index: 1;
+}
+
+.pop-letter i.icon-cancel {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  color: #C3C3C3;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 999;
 }
 
 .pop-letter .wrap {
