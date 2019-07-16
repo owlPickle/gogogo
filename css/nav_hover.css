@@ -1,0 +1,36 @@
+ #nav-hover .page-pop.small-header.desktop {
+    display: none;
+    position: absolute;
+    padding: 4.3%;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 62.5%;
+    height: auto;
+    text-align: left;
+    background: #ccc;
+ }
+
+ #nav-hover .page-pop.small-header.desktop.open {
+   display: block;
+ }
+
+ #nav-hover .page-pop.small-header.desktop:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+ #nav-hover .page-pop.small-header.desktop .arrow {
+  border-color: transparent transparent #ccc transparent;
+ }
+
+ #nav-hover .nav-pages {
+   position: static;
+ }
+
