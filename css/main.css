@@ -8,6 +8,7 @@
 @import "checkout.css";
 @import "404.css";
 @import "weird-header.css";
+@import "nav_hover.css";
 
 * {
   box-sizing: border-box;
@@ -358,11 +359,11 @@ hr {
 }
 
 .page-pop.small-header {
-  top: 92px;
+  top: 180px;
 }
 
 #shopping-cart .page-pop.small-header, #cart_checkout .page-pop.small-header {
-  top: 112px;
+  top: 186px;
 }
 
 .page-pop .col-3 {
@@ -370,7 +371,7 @@ hr {
   padding-right: 0;
 }
 
-.page-pop.small-header .arrow {
+.page-pop.small-header .arrow, .page-pop .arrow {
   display: none;
 }
 
@@ -452,9 +453,17 @@ hr {
   height: 20px;  
 }
 
-.page-pop .arrow {
-  display: none;
-}
+/* .page-pop .arrow {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ffffff transparent;
+  top: -9px;
+  left: 39%;
+} */
 
 .pop-letter {
   display: none;
@@ -1956,7 +1965,15 @@ button.slick-next.slick-arrow {
     width: 70%;
   }
 
-  .page-pop .arrow {
+  #shopping-cart .page-pop.small-header, #cart_checkout .page-pop.small-header {
+    top: 112px;
+  }
+
+  .page-pop.small-header {
+    top: 92px;
+  }
+
+  #header .page-pop .arrow {
     display: block;
     position: absolute;
     width: 0;
@@ -1965,7 +1982,15 @@ button.slick-next.slick-arrow {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent #ffffff transparent;
     top: -9px;
-    left: 39%;
+    left: 0;
+  }
+
+  .nav-pages {
+    position: relative;
+  }
+
+  .page-pop.small-header .arrow {
+    display: block;
   }
 
   .pop-letter {
@@ -2033,10 +2058,6 @@ button.slick-next.slick-arrow {
 
   .page-pop {
     width: 62.5%;
-  }
-
-  .page-pop .arrow {
-    left: 47%;
   }
 
   .pop-letter {
