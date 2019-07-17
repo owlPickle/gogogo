@@ -162,11 +162,20 @@ $(document).ready(function () {
   })
 
   // pages pop
+
   $('.nav-pages').on("click", function (e) {
     e.stopPropagation();
     $('.popup').stop().fadeToggle();
     $('.page-pop').stop().fadeToggle();
     pagesArrow(e);
+    var timer = null;
+    $(window).resize(function () {
+      clearTimeout(timer);
+  
+      timer = setTimeout(function () {
+        pagesArrow(e);
+      }, 10);
+    })
   });
 
   $('.popup').on("click", function (e) {
@@ -182,9 +191,6 @@ $(document).ready(function () {
   // pages arrow
 
   function pagesArrow(e) {
-    $(window).resize(function () {
-      pagesArrow(e);
-    })
     var arrowLeft = $('.page-pop .arrow').offset().left;
     var navLeft = $(e.currentTarget).offset().left + $(e.currentTarget).width() / 2;
     var pageWidth = $('.page-pop.desktop').outerWidth();
@@ -192,7 +198,9 @@ $(document).ready(function () {
     var pageLeftWidth = (windowWidth - pageWidth) / 2;
 
     arrowLeft = (navLeft - pageLeftWidth) * 100 / pageWidth + '%';
+
     $('.page-pop .arrow').css('left', arrowLeft);
+
   }
 
   // letter pop
