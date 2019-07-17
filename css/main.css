@@ -82,6 +82,10 @@ hr {
   margin: 0;
 }
 
+.fade:not(.show) {
+  opacity: 1;
+}
+
 .icon-star, .icon-star-empty {
   display: inline-block;
   width: 11px;
@@ -979,8 +983,10 @@ hr {
   bottom: 2%;
 }
 
-.large.text-dark .circle {
-  cursor: pointer;
+.large.text-dark .slick-dots {
+  left: 10px;
+  bottom: 40px;
+  z-index: 999;
 }
 
 /* features nav */
