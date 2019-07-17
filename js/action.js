@@ -122,6 +122,25 @@ $(document).ready(function () {
     focusOnSelect: true
   });
 
+  $('.fade').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    arrows: false,
+    cssEase: 'linear'
+  });
+
+  $('.variable-width').slick({
+    dots: true,
+    autoplay: true,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true
+  });
+
 
   $('#features').on("click", '.right', function (e) {
     $('#features').find('.slick-next').click();
@@ -290,53 +309,6 @@ $(document).ready(function () {
   // pages popover 
 
   $('[data-toggle="popover"]').popover('show');
-
-  // large slider js practice
-
-  // var sliderImg = document.getElementById("slider");
-  // var circle1 = document.getElementById("circle1");
-  // var circle2 = document.getElementById("circle2");
-  // var circle3 = document.getElementById("circle3");
-  // var circleIndex = 1;
-  // var time = null;
-
-  // circle1.addEventListener("click", showImg);
-  // circle2.addEventListener("click", showImg);
-  // circle3.addEventListener("click", showImg);
-
-  // function showImg() {
-  //   circleIndex = Number(this.id.substr(6));
-  //   sliderImg.innerHTML = '<img src="images/slider/owl'+this.id+'.jpg" alt="counter stool">';
-  //   circleActive();
-  //   // clearInterval(time);
-  //   // timeStart();
-  // }
-
-  // function circleActive() {
-  //   for(var i = 1; i < 4; i++){
-  //     document.getElementById("circle" + i).classList.remove("dark");
-  //   }
-  //   document.getElementById("circle" + circleIndex).classList.add("dark");
-  // }
-
-  // // function timeStart() {
-  // //   time = setInterval(function(){
-  // //     circleIndex ++;
-  // //     if (circleIndex > 3) {
-  // //       circleIndex = 1;
-  // //     }
-  // //     sliderImg.innerHTML = '<img src="images/slider/owlcircle'+circleIndex+'.jpg" alt="counter stool">';
-  // //     circleActive();
-  // //   }, 1000);
-
-  // // }
-
-  // // timeStart();
-
-  // document.getElementById("circle" + circleIndex).classList.add("dark");
-
-
-
 
 });
 
