@@ -33,7 +33,7 @@ $(document).ready(function () {
     infinite: true,         //重覆輪播
     slidesToShow: 4,         //輪播顯示個數
     slidesToScroll: 4,      //輪播捲動個數
-    autoplay: true,         //autoplay : 自動播放
+    autoplay: false,         //autoplay : 自動播放
     responsive: [
 
       {
@@ -121,8 +121,8 @@ $(document).ready(function () {
     centerMode: true,
     focusOnSelect: true
   });
-
-  $('.fade').slick({
+  
+  $('#designs').find('.fade').slick({
     dots: true,
     infinite: true,
     speed: 500,
