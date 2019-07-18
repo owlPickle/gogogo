@@ -121,7 +121,7 @@ $(document).ready(function () {
     centerMode: true,
     focusOnSelect: true
   });
-  
+
   $('#designs').find('.fade').slick({
     dots: true,
     infinite: true,
@@ -190,7 +190,7 @@ $(document).ready(function () {
     var timer = null;
     $(window).resize(function () {
       clearTimeout(timer);
-  
+
       timer = setTimeout(function () {
         pagesArrow(e);
       }, 10);

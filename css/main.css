@@ -986,7 +986,7 @@ hr {
 .large.text-dark .slick-dots {
   left: 10px;
   bottom: 40px;
-  z-index: 999;
+  z-index: 997;
 }
 
 /* features nav */
@@ -1031,6 +1031,11 @@ hr {
 .feature-item {
   margin-bottom: 20px;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.feature-item img {
+  object-fit: cover;
+  height: 275px;
 }
 
 .item-info.nassess .name {
@@ -1082,6 +1087,11 @@ hr {
 .connected .feature-item {
   position: relative;
   padding: 0;
+}
+
+.connected img {
+  object-fit: cover;
+  height: 210px;
 }
 
 .feature-item .box {
@@ -1192,6 +1202,11 @@ hr {
   font-size: 10px;
   color: #8a8a8a;
   text-align: center;
+}
+
+#seller img {
+  object-fit: cover;
+  height: 223px;
 }
 
 .sellernav {

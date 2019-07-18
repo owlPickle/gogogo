@@ -125,7 +125,7 @@ ul.small-nav li.host {
 #img-big .wrap {
   margin: 0 -15px;
   height: 570px;
-  background-image: url('https://via.placeholder.com/1200x570/F8F8F8');
+  background-image: url('../images/blog/livingroom3.jpeg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,6 +199,31 @@ ul.small-nav li.host {
 /* board */
 .blog-board {
   margin-bottom: 60px;
+}
+
+.blog-board img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.blog-board .top-one {
+  height: 260px;
+}
+
+.blog-board .bottom-one {
+  height: 175px;
+}
+
+.blog-board .top-two {
+  height: 200px;
+}
+
+.blog-board .bottom-two {
+  height: 190px;
+}
+
+.blog-board .third-col {
+  height: 350px;
 }
 
 .blog-board .img-top {
